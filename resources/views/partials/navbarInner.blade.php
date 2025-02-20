@@ -6,11 +6,13 @@
           <div class="row"> 
             <div class="col-12">
               <div class="d-block d-md-flex align-items-center text-center">
-                <div class="me-4 d-inline-block py-1">
+                {{-- <div class="me-4 d-inline-block py-1">
                   <a href="#"><i class="far fa-envelope me-2 fa-flip-horizontal text-primary"></i>info@tynesideinnovation.com, enquiries@tynesideinnovation.com</a>
                 </div> 
                 <div class="me-auto d-inline-block py-1">
                   <a href="tel:1-800-555-1234"><i class="fas fa-map-marker-alt text-primary me-2"></i>AFRICA: 1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</a>
+                </div> --}}
+                <div class="col-10 d-inline-block py-1">
                 </div>
                 <div class="d-inline-block py-1">
                   <ul class="list-unstyled">

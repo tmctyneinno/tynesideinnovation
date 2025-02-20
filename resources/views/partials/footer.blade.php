@@ -71,16 +71,26 @@
                 <h5 class="text-primary mb-3">Contact Tyneside Innovation</h5>
                 <div class="contact-address" >
                   <div class="contact-item" >
-                    <label style="color: white">Address:</label>
-                    <p style="color: white">1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</p>
+                    <p style="color: white">EUROPE: Tyneside Innovations UK Limited,
+                      6, Canterbury Court Pontefract,
+                      West Yorkshire, WF8 2UH
+                      United Kingdom</p>
+
+
                   </div> 
                   <div class="contact-item" >
-                    <label style="color: white">Phone:</label>
-                    <h4 style="color: white" class="mb-0 fw-bold"><a href="#">(+234) 915 3414 314</a></h4>
+                    <p style="color: white">AFRICA: 1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</p>
+                  </div>
+                  <div class="contact-item" >
+                    <p style="color: white">ASIA:      21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</p>
+                  </div>
+                  <div class="contact-item" >
+                
+                    <p style="color: white" class="mb-0 "> Phone: (+234) 915 3414 314</p>
                   </div>
                   <div class="contact-item">
-                    <label style="color: white">Email:</label>
-                    <a  style="color: white" href="#">enquiries@tynesideinnovation.com</a>
+                  
+                    <a  style="color: white" href="#">  Email: enquiries@tynesideinnovation.com, info@tynesideinnovation.com, </a>
                   </div>
                 </div>
               </div>
