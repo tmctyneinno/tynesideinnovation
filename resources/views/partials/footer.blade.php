@@ -72,9 +72,7 @@
                 <div class="contact-address" >
                   <div class="contact-item" >
                     <p style="color: white">EUROPE: Tyneside Innovations UK Limited,
-                      6, Canterbury Court Pontefract,
-                      West Yorkshire, WF8 2UH
-                      United Kingdom</p>
+                      6, Canterbury Court Pontefract, West Yorkshire, WF8 2UH United Kingdom</p>
 
 
                   </div> 
@@ -86,7 +84,7 @@
                   </div>
                   <div class="contact-item" >
                 
-                    <p style="color: white" class="mb-0 "> Phone: (+234) 915 3414 314</p>
+                    <p style="color: white" class="mb-0 "> Phone: (+234) 915 3414 314, +44 74665 88324</p>
                   </div>
                   <div class="contact-item">
                   

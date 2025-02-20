@@ -87,9 +87,7 @@
                 <h4>EUROPE</h4>
                 <h6 class="text-light mb-0">
                   Tyneside Innovations UK Limited,
-                  6, Canterbury Court Pontefract,
-                  West Yorkshire, WF8 2UH
-                  United Kingdom
+                   6, Canterbury Court Pontefract, West Yorkshire, WF8 2UH United Kingdom
                 </h6>
               </div>
               <div class="col-sm-6 mb-4 mb-md-5">
@@ -100,7 +98,7 @@
               <div class="col-sm-6 mb-4 mb-sm-0">
                 <img class="img-fluid mb-4" src="images/about/map-lacation-img3.png" alt="">
                 <h4>Asia</h4>
-                <h6 class="text-light mb-0">21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</h6>
+                <h6 class="text-light mb-0"> 21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</h6>
               </div>
               {{-- <div class="col-sm-6">
                 <img class="img-fluid mb-4" src="images/about/map-lacation-img4.png" alt="">
@@ -125,7 +123,7 @@
               <div class="feature-info-content">
                 <h4 class="mb-3 fw-normal feature-info-title">Phone number</h4>
                 <p>Nigeria – +2349153414314</p>
-                <p>United Kingdom Tel: +441977310180</p>
+                <p>United Kingdom Tel:  +44 74665 88324</p>
                 <p>Republic of Ireland: +353 877123968</p>
               </div>
             </div>
