@@ -57,7 +57,7 @@
                                                     <th  class="sort" data-sort="menu_name">Category</th>
                                                     <th  class="sort" data-sort="menu_name">Caption</th>
                                                     <th  class="sort" data-sort="menu_name">Image</th>
-                                                    <th  class="sort" data-sort="menu_name">DATE   </th>
+                                                    {{-- <th  class="sort" data-sort="menu_name">DATE   </th> --}}
                                                     <th  class="sort" data-sort="menu_name">ACTION</th>
                                                 </tr>
                                             </thead>
@@ -71,7 +71,7 @@
                                                     <td>
                                                         <img src="{{ asset($portfolio->image) }}" class="img-thumbnail" height="30" alt="{{ $portfolio->title }}"  style="max-width: 100px;"/>
                                                     </td>
-                                                    <td class="menu_name">{{ \Carbon\Carbon::parse($portfolio->created_at)->format('d M Y') }}</td> 
+                                                    {{-- <td class="menu_name">{{ \Carbon\Carbon::parse($portfolio->created_at)->format('d M Y') }}</td>  --}}
 
                                                     <td>
                                                         <div class="d-flex gap-2">
@@ -128,7 +128,7 @@
                                                     <th class="sort" data-sort="menu_name">#</th>
                                                     <th  class="sort" data-sort="menu_name">Name</th>
                                                     {{-- <th  class="sort" data-sort="menu_name">DATE   </th> --}}
-                                                    {{-- <th  class="sort" data-sort="menu_name">ACTION</th> --}}
+                                                    <th  class="sort" data-sort="menu_name">ACTION</th>
                                                 </tr>
                                             </thead>
                                             <tbody class="list form-check-all">
@@ -136,13 +136,23 @@
                                                 <tr>
                                                     <td><strong>{{  $index + 1 }}</strong></td>
                                                     <td class="menu_name">{{ $portfolio->name }}</td>
-                                                   
+                                                    <td>
+                                                        <div class="d-flex gap-2">
+                                                            {{-- <div class="edit">
+                                                                <a href="{{ route('admin.portfolio.edit',  encrypt($portfolio->id) ) }}" class="btn btn-sm btn-success edit-item-btn" >Edit</a>
+                                                            </div> --}}
+                                                            <div class="remove">
+                                                                <button class="btn btn-sm btn-danger remove-item-btn" data-bs-toggle="modal" data-bs-target="#deleteRecordModalCategory{{ $portfolio->id }}" data-id="{{ $portfolio->id }}">Remove</button>
+                                                            
+                                                            </div>
+                                                        </div>
+                                                    </td>
                                                     {{-- <td class="menu_name">{{ \Carbon\Carbon::parse($portfolio->created_at)->format('d M Y') }}</td>  --}}
 
                                                 </tr>
                                             
                                                 {{-- Delete --}}
-                                                <div class="modal fade zoomIn" id="deleteRecordModal{{ $portfolio->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal fade zoomIn" id="deleteRecordModalCategory{{ $portfolio->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                     <div class="modal-dialog modal-dialog-centered">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
@@ -156,11 +166,21 @@
                                                                         <p class="text-muted mx-4 mb-0">Are you sure you want to remove this Portfolio?</p>
                                                                     </div>
                                                                 </div>
+                                                                <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
+                                                                    <button type="button" class="btn w-sm btn-light" data-bs-dismiss="modal">Close</button>
+                                                                    <form method="POST" action="{{ route('admin.portfolio.category.destroy', encrypt($portfolio->id) ) }}">
+                                                                        @csrf
+                                                                        @method('DELETE')
+                                                                        <button type="submit" class="btn w-sm btn-danger">Yes, Delete It!</button>
+                                                                    </form>
+                                                                </div>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
+                                             
                                                 @empty
                                                 <tr>
                                                     <td colspan="4" class="text-center">No Portfolio Items Found</td>

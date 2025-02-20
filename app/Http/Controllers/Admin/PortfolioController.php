@@ -20,8 +20,7 @@ class PortfolioController extends Controller
     }
  
     public function storeCategory(Request $request)
-    { 
-        
+    {   
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
         ]);
@@ -34,9 +33,16 @@ class PortfolioController extends Controller
         return redirect()->back()->with('success', 'Portfolio created successfully.');
     }
 
+    public function destroyCategory($id)
+    {
+        $portfolio= PortfolioCategory::findOrFail(decrypt($id));
+        $portfolio->delete();
+        return redirect()->route('admin.portfolio.index')->with('success', 'Service deleted successfully.');
+    }
+
+    
     public function store(Request $request)
     { 
-        
         $validator = Validator::make($request->all(), [
             'title' => 'required|string|max:255',
             'category_id' => 'required|string|max:255',
@@ -44,24 +50,31 @@ class PortfolioController extends Controller
             'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
     
-        
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+    
+        $imageName = null; // Initialize $imageName to prevent undefined error
     
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $imageName = time() . '.' . $image->extension();
             $image->move(public_path('assets/images/portfolio'), $imageName);
         }
+    
         $slug = Str::slug($request->title);
+    
         Portfolio::create([
             'title' => $request->title,
             'category_id' => $request->category_id,
             'slug' => $slug,
             'content' => $request->Content,
-            'image' => 'assets/images/portfolio/'.$imageName ?? null,
+            'image' => $imageName ? 'assets/images/portfolio/' . $imageName : null,
         ]);
-      
+    
         return redirect()->back()->with('success', 'Portfolio created successfully.');
     }
+    
 
     public function edit($id)
     {

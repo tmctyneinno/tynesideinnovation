@@ -172,6 +172,7 @@ Route::prefix('admin')->group(function () {
         Route::delete('portfolio/{id}', [PortfolioController::class, 'destroy'])->name('admin.portfolio.destroy');
 
         Route::post('post/portfolio/category', [PortfolioController::class, 'storeCategory'])->name('admin.portfolio.category.store'); 
+        Route::delete('portfolio/category/{id}', [PortfolioController::class, 'destroyCategory'])->name('admin.portfolio.category.destroy');
 
        
           
