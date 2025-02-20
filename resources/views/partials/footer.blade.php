@@ -71,8 +71,9 @@
                 <h5 class="text-primary mb-3">Contact Tyneside Innovation</h5>
                 <div class="contact-address" >
                   <div class="contact-item" >
-                    <p style="color: white">EUROPE: Tyneside Innovations UK Limited,
-                      6, Canterbury Court Pontefract, West Yorkshire, WF8 2UH United Kingdom</p>
+                    <p style="color: white">EUROPE: International House, 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom
+
+                    </p>
 
 
                   </div> 

@@ -86,8 +86,7 @@
                 <img class="img-fluid mb-4" src="images/about/map-lacation-img1.png" alt="">
                 <h4>EUROPE</h4>
                 <h6 class="text-light mb-0">
-                  Tyneside Innovations UK Limited,
-                   6, Canterbury Court Pontefract, West Yorkshire, WF8 2UH United Kingdom
+                  International House, 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom
                 </h6>
               </div>
               <div class="col-sm-6 mb-4 mb-md-5">
