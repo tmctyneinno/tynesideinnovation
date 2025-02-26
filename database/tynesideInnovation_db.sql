@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 19, 2025 at 10:28 AM
+-- Generation Time: Feb 20, 2025 at 03:44 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -316,8 +316,14 @@ CREATE TABLE `portfolios` (
 --
 
 INSERT INTO `portfolios` (`id`, `title`, `category_id`, `slug`, `content`, `image`, `video`, `link`, `created_at`, `updated_at`) VALUES
-(2, 'Portrec', 4, 'portrec', '<p>Portrec Resourcing is a global recruitment and HR solutions provider, dedicated to matching top talent with leading organizations across various sectors. We offer comprehensive services, including executive search, talent resourcing, payroll management, and umbrella company solutions.</p>', 'assets/images/portfolio/1739523292.png', NULL, NULL, '2025-02-14 07:54:52', '2025-02-17 12:50:58'),
-(3, 'Archwayhomes', 1, 'archwayhomes', '<p>https://www.archwayhomes.com.ng</p>', 'assets/images/portfolio/1739807785.png', NULL, NULL, '2025-02-14 08:27:24', '2025-02-17 14:56:25');
+(3, 'Archwayhomes', 1, 'archwayhomes', '<p>https://www.archwayhomes.com.ng</p>', 'assets/images/portfolio/1739807785.png', NULL, NULL, '2025-02-14 08:27:24', '2025-02-17 14:56:25'),
+(4, 'Tmcinstitute', 1, 'tmcinstitute', '<p>https://tmcinstitute.com/</p>', 'assets/images/portfolio/1740060164.png', NULL, NULL, '2025-02-20 13:02:44', '2025-02-20 13:02:44'),
+(5, 'Trendykaycollections', 4, 'trendykaycollections', '<p>https://trendykaycollections.com/</p>', 'assets/images/portfolio/1740060321.png', NULL, NULL, '2025-02-20 13:05:21', '2025-02-20 13:05:21'),
+(6, 'Landiquire', 1, 'landiquire', '<p>https://landiquire.com/</p>', 'assets/images/portfolio/1740060536.png', NULL, NULL, '2025-02-20 13:08:56', '2025-02-20 13:08:56'),
+(7, 'Morgansconsortium', 1, 'morgansconsortium', '<p>https://morgansconsortium.com</p>', 'assets/images/portfolio/1740060897.png', NULL, NULL, '2025-02-20 13:14:57', '2025-02-20 13:14:57'),
+(8, 'Oysterchecks', 1, 'oysterchecks', '<p>https://oysterchecks.com/</p>', 'assets/images/portfolio/1740060963.png', NULL, NULL, '2025-02-20 13:16:03', '2025-02-20 13:16:03'),
+(9, 'Christambassadors.net', 1, 'christambassadorsnet', '<p>https://christambassadors.net/</p>', 'assets/images/portfolio/1740061076.png', NULL, NULL, '2025-02-20 13:17:56', '2025-02-20 13:17:56'),
+(10, 'Mimatt', 1, 'mimatt', '<p>https://mimatt.co.uk/<br>&nbsp;</p>', 'assets/images/portfolio/1740061149.png', NULL, NULL, '2025-02-20 13:19:09', '2025-02-20 13:19:09');
 
 -- --------------------------------------------------------
 
@@ -339,7 +345,6 @@ CREATE TABLE `portfolio_categories` (
 
 INSERT INTO `portfolio_categories` (`id`, `name`, `slug`, `created_at`, `updated_at`) VALUES
 (1, 'Web Design & Development', 'web-design-development', '2025-02-17 12:10:57', '2025-02-17 12:10:57'),
-(2, 'Branding & Creative', 'branding-creative', '2025-02-17 12:16:11', '2025-02-17 12:16:11'),
 (3, 'SEO', 'seo', '2025-02-17 12:16:29', '2025-02-17 12:16:29'),
 (4, 'E-Commerce', 'e-commerce', '2025-02-17 12:16:42', '2025-02-17 12:16:42'),
 (5, 'Managed Services', 'managed-services', '2025-02-17 12:16:54', '2025-02-17 12:16:54');
@@ -415,6 +420,7 @@ CREATE TABLE `sessions` (
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
 ('attU8RxajXkHN3gEYWDK2lQH1MCP8WrEjTqbAgEP', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiODBwWHF4V01oT1ZRaWdTRHdXSzZXdURJWDg4RXhSbWd1MDl1ODM0TSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ibG9nIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MjoibG9naW5fYWRtaW5fNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO30=', 1739957236),
 ('ul8h099ftnz4FwDCOj4enaGVse8kAtq1IDUmmRh1', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiMXNyUVhUZjh0MHFpRlJCUDZubW8zN2hSWHF6VXpRdHFsSEp6bWJSWiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ob21lIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MjoibG9naW5fYWRtaW5fNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO30=', 1739807812),
+('vnjWOV4Zzhlg6UHJZqTCK5bjM8b5HRFYFBn7OFdM', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiUFlmaWpVSVBjWTFwam1nQUd1bTFqdUpXUEtMR1NybkxDd0tzOVJqYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ob21lIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MjoibG9naW5fYWRtaW5fNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO30=', 1740061155),
 ('YPaieHzrzzHyRMlyrkZKSiJquuZKsjhUKjks8nlg', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiRU5kVUJVQXJVcEt2MWdlbVREMkhUR2h0VFplem9PQ01sMnRHZW5MRyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMSI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1739869250);
 
 -- --------------------------------------------------------
@@ -740,7 +746,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `portfolios`
 --
 ALTER TABLE `portfolios`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `portfolio_categories`
