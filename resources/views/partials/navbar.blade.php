@@ -1,91 +1,319 @@
- <!--=================================
-    header -->
-    <header class="header header-transparent ">
-      <div class="topbar bg-white d-none d-lg-block">
-        <div class="container-fluid">
-          <div class="row"> 
-            <div class="col-12">
-              <div class="d-block d-md-flex align-items-center text-center">
-                {{-- <div class="me-4 d-inline-block py-1">
-                  <a href="#"><i class="far fa-envelope me-2 fa-flip-horizontal text-primary"></i>info@tynesideinnovation.com, enquiries@tynesideinnovation.com</a>
-                </div> 
-                <div class="me-auto d-inline-block py-1">
-                  <a href="tel:1-800-555-1234"><i class="fas fa-map-marker-alt text-primary me-2"></i>AFRICA: 1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</a>
-                </div> --}}
-                <div class="d-inline-block py-1">
-                  <ul class="list-unstyled">
-                    <li><a href="{{ route('home.pages', 'career') }}">Careers</a></li>
-                    <li><a href="{{ route('home.pages','blog')}}">Blog</a></li>
-                    <li><a href="{{ route('home.pages', 'faq') }}">FAQ</a></li>
+<body class="custom-cursor">
+
+
+
+  <div class="custom-cursor__cursor"></div>
+  <div class="custom-cursor__cursor-two"></div>
+
+
+  <!--Start Preloader-->
+  <div class="loader js-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
+  <!--End Preloader-->
+
+
+
+
+  <div class="page-wrapper">
+      <header class="main-header-two">
+          <div class="main-menu-two__top">
+              <div class="main-menu-two__top-inner">
+                  <ul class="list-unstyled main-menu-two__contact-list">
+                      <li>
+                          <div class="icon">
+                              <i class="icon-phone"></i>
+                          </div>
+                          <div class="text">
+                              <p><a href="tel:15502505260">+1 (550) 250 5260</a></p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="icon">
+                              <i class="icon-envelope"></i>
+                          </div>
+                          <div class="text">
+                              <p><a href="mailto:info@Finris24.com">info@Finris24.com</a>
+                              </p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="icon">
+                              <i class="icon-pin"></i>
+                          </div>
+                          <div class="text">
+                              <p>4124 Cimmaron Road, CA 92806</p>
+                          </div>
+                      </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-       
-      {{-- <nav class="navbar bg-white navbar-static-top navbar-expand-lg "> --}}
-        <nav class="navbar navbar-static-top navbar-expand-lg ">
-        <div class="container-fluid">
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
-          <a class="navbar-brand" href="index.html">
-            <img class="img-fluid" src="{{ asset('assets/images/logo.png')}}" alt="logo">
-          </a>
-          <div class="navbar-collapse collapse">
-          
-            <ul class="nav navbar-nav">
-              @foreach ($menuItems as $menuItem)
-                  @if ($menuItem->dropdownItems->isEmpty())
-                      <!-- Render a single menu item without a dropdown -->
-                      <li class="nav-item">
-                          <a href="{{ route( 'home.pages', $menuItem->slug )}}" class="nav-link ">{{ $menuItem->name }}</a>
-                      </li>
-                  @else
-                      <!-- Render a menu item with dropdown -->
-                      <li class="dropdown nav-item">
-                          <a href="{{ route( 'home.pages', $menuItem->slug )}}" class="nav-link" >
-                            {{ $menuItem->name }}
-                          </a>
-                          <ul class="dropdown-menu">
-                              @foreach ($menuItem->dropdownItems as $dropdownItem)
-                                  <li>
-                                      <a class="dropdown-item" href="{{ str_replace(['https://tynesideinnovation.com/', 'http://127.0.0.1:8000/'], '', route('home.pages', $dropdownItem->slug)) }}">
-                                          {{ $dropdownItem->name }} <i class="fas fa-arrow-right"></i>
-                                      </a>
-
-                                  </li>
-                              @endforeach
-                          </ul>
-                      </li>
-                  @endif
-              @endforeach
-          </ul>
-
-          </div>
-          <div class="d-none d-sm-flex ms-auto me-5 me-lg-0 pe-4 pe-lg-0">
-            <ul class="nav ms-1 ms-lg-2 align-self-center">
-              <li class="contact-number nav-item pe-4 ">
-                <a class="fw-bold" href="#"><i class="fab fa-whatsapp pe-2"></i>(+234) 915 3414 314</a>
-              </li>
-              {{-- <li class="header-search nav-item">
-                <div class="search">
-                  <a class="search-btn not_click" href="javascript:void(0);"></a>
-                  <div class="search-box not-click">
-                    <form action="#" method="get">
-                      <input type="text" class="not-click form-control" name="search" placeholder="Search..">
-                      <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
-                    </form>
+                  <p class="main-menu-two__top-welcome-text">Welcome to Our business Agency</p>
+                  <div class="main-menu-two__top-right">
+                      <div class="main-menu-two__top-time">
+                          <div class="main-menu-two__top-time-icon">
+                              <span class="icon-time"></span>
+                          </div>
+                          <p class="main-menu-two__top-text">Mon - Fri: 09:00 - 05:00</p>
+                      </div>
+                      <div class="main-menu-two__social">
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-facebook"></i></a>
+                          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                      </div>
                   </div>
-                </div>
-              </li> --}}
-            </ul>
+              </div>
           </div>
-        </div>
-      </nav>
-    </header>
+          <nav class="main-menu main-menu-two">
+              <div class="main-menu-two__wrapper">
+                  <div class="main-menu-two__wrapper-inner">
+                      <div class="main-menu-two__left">
+                          <div class="main-menu-two__logo">
+                              <a href="index.html"><img src="assets/images/resources/logo-2.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="main-menu-two__main-menu-box">
+                          <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                          <ul class="main-menu__list">
+                              <li class="megamenu megamenu-clickable megamenu-clickable--toggler current">
+                                  <a href="index.html" title="Click Me">
+                                      Home
+                                      <img class="clickMe" src="assets/images/icon/click-icon.png" alt="">
+                                  </a>
+                                  <ul>
+                                      <li>
+                                          <div class="megamenu-popup">
+                                              <a href="#" class="megamenu-clickable--close"><span
+                                                      class="icon-close"></span></a>
+                                              <div class="megamenu-popup__content">
+                                                  <div class="megamenu-popup-content-one">
+                                                      <div class="container">
+                                                          <div class="row">
 
-   
-    <!--=================================
-    header -->
-  
+                                                              <!-- Megamenu Popup Content One Single Start -->
+                                                              <div class="col-lg-4 col-md-6">
+                                                                  <div class="megamenu-popup-content-one__single">
+                                                                      <div class="megamenu-popup-content-one__image">
+                                                                          <img src="assets/images/home-showcase/home-showcase-1-1.jpg"
+                                                                              alt="">
+                                                                          <div
+                                                                              class="megamenu-popup-content-one__btns">
+                                                                              <a href="index.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">Multi
+                                                                                  Page</a>
+                                                                              <a href="index-one-page.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">One
+                                                                                  Page</a>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div
+                                                                          class="megamenu-popup-content-one__content">
+                                                                          <h3
+                                                                              class="megamenu-popup-content-one__title">
+                                                                              <a href="index.html">
+                                                                                  Business
+                                                                              </a>
+                                                                          </h3>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <!-- Megamenu Popup Content One Single End -->
+                                                              <!-- Megamenu Popup Content One Single Start -->
+                                                              <div class="col-lg-4 col-md-6">
+                                                                  <div class="megamenu-popup-content-one__single">
+                                                                      <div class="megamenu-popup-content-one__image">
+                                                                          <img src="assets/images/home-showcase/home-showcase-1-2.jpg"
+                                                                              alt="">
+                                                                          <div
+                                                                              class="megamenu-popup-content-one__btns">
+                                                                              <a href="index2.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">Multi
+                                                                                  Page</a>
+                                                                              <a href="index2-one-page.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">One
+                                                                                  Page</a>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div
+                                                                          class="megamenu-popup-content-one__content">
+                                                                          <h3
+                                                                              class="megamenu-popup-content-one__title">
+                                                                              <a href="index2.html">
+                                                                                  Corporate
+                                                                              </a>
+                                                                          </h3>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <!-- Megamenu Popup Content One Single End -->
+                                                              <!-- Megamenu Popup Content One Single Start -->
+                                                              <div class="col-lg-4 col-md-6">
+                                                                  <div class="megamenu-popup-content-one__single">
+                                                                      <div class="megamenu-popup-content-one__image">
+                                                                          <img src="assets/images/home-showcase/home-showcase-1-3.jpg"
+                                                                              alt="">
+                                                                          <div
+                                                                              class="megamenu-popup-content-one__btns">
+                                                                              <a href="index3.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">Multi
+                                                                                  Page</a>
+                                                                              <a href="index3-one-page.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">One
+                                                                                  Page</a>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div
+                                                                          class="megamenu-popup-content-one__content">
+                                                                          <h3
+                                                                              class="megamenu-popup-content-one__title">
+                                                                              <a href="index3.html">
+                                                                                  IT Solutions
+                                                                              </a>
+                                                                          </h3>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <!-- Megamenu Popup Content One Single End -->
+                                                              <!-- Megamenu Popup Content One Single Start -->
+                                                              <div class="col-lg-4 col-md-6">
+                                                                  <div class="megamenu-popup-content-one__single">
+                                                                      <div class="megamenu-popup-content-one__image">
+                                                                          <img src="assets/images/home-showcase/home-showcase-dark.jpg"
+                                                                              alt="">
+                                                                          <div
+                                                                              class="megamenu-popup-content-one__btns">
+                                                                              <a href="index-dark.html"
+                                                                                  class="thm-btn megamenu-popup-content-one__btn">View</a>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div
+                                                                          class="megamenu-popup-content-one__content">
+                                                                          <h3
+                                                                              class="megamenu-popup-content-one__title">
+                                                                              <a href="index-dark.html">
+                                                                                  Home Dark
+                                                                              </a>
+                                                                          </h3>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <!-- Megamenu Popup Content One Single End -->
+                                                              <!-- Megamenu Popup Content One Single Start -->
+                                                              <div class="col-lg-4 col-md-6">
+                                                                  <div class="megamenu-popup-content-one__single">
+                                                                      <div class="megamenu-popup-content-one__image">
+                                                                          <img src="assets/images/home-showcase/coming-soon.jpg"
+                                                                              alt="">
+                                                                      </div>
+                                                                      <div
+                                                                          class="megamenu-popup-content-one__content">
+                                                                          <h3
+                                                                              class="megamenu-popup-content-one__title">
+                                                                              Coming Soon
+                                                                          </h3>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <!-- Megamenu Popup Content One Single End -->
+
+
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <a href="about.html">About</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a href="#">Pages</a>
+                                  <ul>
+                                      <li><a href="team.html">Team</a></li>
+                                      <li><a href="team-carousel.html">Team Carousel</a></li>
+                                      <li><a href="team-details.html">Team Details</a></li>
+                                      <li><a href="portfolio.html">Portfolio</a></li>
+                                      <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                      <li><a href="testimonials.html">Testimonials</a></li>
+                                      <li><a href="testimonial-carousel.html">Testimonial Carousel</a></li>
+                                      <li><a href="pricing.html">Pricing</a></li>
+                                      <li><a href="gallery.html">Gallery</a></li>
+                                      <li><a href="faq.html">FAQs</a></li>
+                                      <li><a href="404.html">404 Error</a></li>
+                                      <li><a href="coming-soon.html">Coming Soon</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown">
+                                  <a href="#">Services</a>
+                                  <ul>
+                                      <li><a href="services.html">Services</a></li>
+                                      <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                                      <li><a href="web-design-development.html">Web Design & Development</a></li>
+                                      <li><a href="search-engine-optimization.html">Search Engine Optimization</a>
+                                      </li>
+                                      <li><a href="design-and-branding.html">Design & Branding</a></li>
+                                      <li><a href="app-development.html">App Development</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown">
+                                  <a href="#">Shop</a>
+                                  <ul>
+                                      <li><a href="products.html">Products</a></li>
+                                      <li><a href="product-details.html">Product Details</a></li>
+                                      <li><a href="cart.html">Cart</a></li>
+                                      <li><a href="checkout.html">Checkout</a></li>
+                                      <li><a href="wishlist.html">Wishlist</a></li>
+                                      <li><a href="sign-up.html">Sign Up</a></li>
+                                      <li><a href="login.html">Login</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown">
+                                  <a href="#">Blog</a>
+                                  <ul>
+                                      <li><a href="blog.html">Blog</a></li>
+                                      <li><a href="blog-carousel.html">Blog Carousel</a></li>
+                                      <li><a href="blog-list.html">Blog List</a></li>
+                                      <li><a href="blog-details.html">Blog Details</a></li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <a href="contact.html">Contact</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="main-menu-two__right">
+                          <div class="main-menu-two__call">
+                              <div class="main-menu-two__call-icon">
+                                  <i class="icon-phone"></i>
+                              </div>
+                              <div class="main-menu-two__call-content">
+                                  <p class="main-menu-two__call-sub-title">Call Anytime</p>
+                                  <h5 class="main-menu-two__call-number"><a href="tel:9288006780">+92 ( 8800 ) -
+                                          6780</a></h5>
+                              </div>
+                          </div>
+                          <div class="main-menu-two__search-cart-box">
+                              <div class="main-menu-two__search-cart-box">
+                                  <div class="main-menu-two__search-box">
+                                      <span class="main-menu-two__search searcher-toggler-box icon-search-1"></span>
+                                  </div>
+                                  <div class="main-menu-two__cart-box">
+                                      <a href="cart.html" class="main-menu-two__cart icon-shopping-cart"></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="main-menu-two__btn-box">
+                              <a href="contact.html" class="thm-btn thm-btn-two main-menu-two__btn">Contact us</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+      </header>
+
+      <div class="stricky-header stricked-menu main-menu main-menu-two">
+          <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+      </div><!-- /.stricky-header -->

@@ -19,12 +19,27 @@ class Blog extends Model
         parent::boot();
 
         static::creating(function ($model) {
-            $model->slug = Str::slug($model->title); 
+            $model->slug = Str::generateUniqueSlug($model->title, $model->id); 
         });
 
         static::updating(function ($model) {
-            $model->slug = Str::slug($model->title); 
+            $model->slug = Str::generateUniqueSlug($model->title, $model->id); 
         });
+    }
+
+    public static function generateUniqueSlug($title, $modelId=null)
+    {
+        $slug = Str::slug($title);$slug2 = $slug;
+        $counter = 1;
+
+        while(static::where('slug', $slug)
+                        ->where('id', '!=',$modelId)
+                        ->exists())
+                        {
+                $slug = "{$slug2}-{$counter}";
+                $counter++;
+                        };
+            return $slug;
     }
 }
  

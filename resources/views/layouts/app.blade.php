@@ -1,41 +1,60 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Tyneside Innovation</title>
-   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> @isset('title') {{$title}} @else Tyneside  Innovation  @endisset</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="" />
+    <meta name="description" content=" " />
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&amp;display=swap" rel="stylesheet">
 
-    <!-- Scripts -->
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
-    <script src="{{ asset('assets/js/app.js') }}" defer></script>
 
-    <!-- Google Font -->
-    <link rel="stylesheet" href="../../../fonts.googleapis.com/cssc15a.css?family=Archivo:400,400i,500,500i,600,600i,700,700i&amp;display=swap">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/custom-animate.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/swiper.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/font-awesome-all.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/jarallax.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/jquery.magnific-popup.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/jquery-ui.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/aos.css')}}" />
 
-    <!-- CSS Global Compulsory (Do not remove)-->
-    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome/all.min.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/flaticon/flaticon.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/slider.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/footer.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/brand.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/services.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/about.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/why-choose.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/process.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/portfolio.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/testimonial.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/pricing.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/blog.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/newsletter.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/cta.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/counter.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/team.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/sliding-text.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/serving.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/welcome.css')}}" />
 
-    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
-    <link rel="stylesheet" href="{{ asset('assets/css/owl-carousel/owl.carousel.min.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/swiper/swiper.min.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/animate/animate.min.css')}}"/>
-    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup/magnific-popup.css')}}" />
-
-    <!-- Template Style -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/logo.png')}}">
-
+    <!-- template styles -->
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}" />
 </head>
-<body>
     @include('partials.navbar')
     @yield('content')
     @include('partials.footer')
-</body>
-</html>
