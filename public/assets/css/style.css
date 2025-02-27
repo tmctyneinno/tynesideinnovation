@@ -22,9 +22,9 @@
   --finris-font-two: "Koulen", sans-serif;
   --finris-gray: #5D6B81;
   --finris-gray-rgb: 93, 107, 129;
-  --finris-base: #6232F8;
+  --finris-base: #2b5d2d;
   --finris-base-rgb: 98, 50, 248;
-  --finris-primary: #FEB72B;
+  --finris-primary: #2b5d2d;
   --finris-primary-rgb: 254, 183, 43;
   --finris-black: #243855;
   --finris-black-rgb: 36, 56, 85;
@@ -1887,7 +1887,7 @@ body.megamenu-popup-active .mobile-nav__content {
 # Navigations Two
 --------------------------------------------------------------*/
 .main-header-two {
-  background: transparent;
+  background: #2b5d2d;
   position: absolute;
   left: 0;
   right: 0;
@@ -2106,6 +2106,8 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: #fff;
+  color:#000000;
   padding: 0 55px;
 }
 
@@ -2249,7 +2251,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .main-menu-two .main-menu__list>li>a,
 .stricky-header.main-menu-two .main-menu__list>li>a {
-  color: var(--finris-white);
+  color: var(--finris-black-rgb);
 }
 
 .main-menu-two .main-menu__list>li>a::before,

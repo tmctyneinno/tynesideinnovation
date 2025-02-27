@@ -6,6 +6,7 @@
     display: block;
     padding: 120px 0 120px;
     z-index: 1;
+    background: #0236094b;
 }
 
 .portfolio-one__shape-bg {
@@ -27,7 +28,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(6, 28, 61, .85);
+    /* background-color: rgba(6, 28, 61, .85); */
 }
 
 .portfolio-one__shape-bg-two {

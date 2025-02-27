@@ -2,8 +2,8 @@
 
 
 
-  <div class="custom-cursor__cursor"></div>
-  <div class="custom-cursor__cursor-two"></div>
+  {{-- <div class="custom-cursor__cursor"></div>
+  <div class="custom-cursor__cursor-two"></div> --}}
 
 
   <!--Start Preloader-->
@@ -15,46 +15,18 @@
   <!--End Preloader-->
 
 
-
-
   <div class="page-wrapper">
       <header class="main-header-two">
           <div class="main-menu-two__top">
               <div class="main-menu-two__top-inner">
-                  <ul class="list-unstyled main-menu-two__contact-list">
-                      <li>
-                          <div class="icon">
-                              <i class="icon-phone"></i>
-                          </div>
-                          <div class="text">
-                              <p><a href="tel:15502505260">+1 (550) 250 5260</a></p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="icon">
-                              <i class="icon-envelope"></i>
-                          </div>
-                          <div class="text">
-                              <p><a href="mailto:info@Finris24.com">info@Finris24.com</a>
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="icon">
-                              <i class="icon-pin"></i>
-                          </div>
-                          <div class="text">
-                              <p>4124 Cimmaron Road, CA 92806</p>
-                          </div>
-                      </li>
-                  </ul>
-                  <p class="main-menu-two__top-welcome-text">Welcome to Our business Agency</p>
+            
+                  <p class="main-menu-two__top-welcome-text"></p>
                   <div class="main-menu-two__top-right">
                       <div class="main-menu-two__top-time">
                           <div class="main-menu-two__top-time-icon">
                               <span class="icon-time"></span>
                           </div>
-                          <p class="main-menu-two__top-text">Mon - Fri: 09:00 - 05:00</p>
+                          {{-- <p class="main-menu-two__top-text">Mon - Fri: 09:00 - 05:00</p> --}}
                       </div>
                       <div class="main-menu-two__social">
                           <a href="#"><i class="fab fa-twitter"></i></a>
@@ -70,14 +42,14 @@
                   <div class="main-menu-two__wrapper-inner">
                       <div class="main-menu-two__left">
                           <div class="main-menu-two__logo">
-                              <a href="index.html"><img src="assets/images/resources/logo-2.png" alt=""></a>
+                              <a href="{{route('index')}}"><img src="{{asset('/assets/images/Tyneside.png')}}"  width="130px" alt=""></a>
                           </div>
                       </div>
                       <div class="main-menu-two__main-menu-box">
                           <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                           <ul class="main-menu__list">
                               <li class="megamenu megamenu-clickable megamenu-clickable--toggler current">
-                                  <a href="index.html" title="Click Me">
+                                  <a href="{{route('index')}}" title="Click Me">
                                       Home
                                       <img class="clickMe" src="assets/images/icon/click-icon.png" alt="">
                                   </a>
@@ -285,26 +257,8 @@
                           </ul>
                       </div>
                       <div class="main-menu-two__right">
-                          <div class="main-menu-two__call">
-                              <div class="main-menu-two__call-icon">
-                                  <i class="icon-phone"></i>
-                              </div>
-                              <div class="main-menu-two__call-content">
-                                  <p class="main-menu-two__call-sub-title">Call Anytime</p>
-                                  <h5 class="main-menu-two__call-number"><a href="tel:9288006780">+92 ( 8800 ) -
-                                          6780</a></h5>
-                              </div>
-                          </div>
-                          <div class="main-menu-two__search-cart-box">
-                              <div class="main-menu-two__search-cart-box">
-                                  <div class="main-menu-two__search-box">
-                                      <span class="main-menu-two__search searcher-toggler-box icon-search-1"></span>
-                                  </div>
-                                  <div class="main-menu-two__cart-box">
-                                      <a href="cart.html" class="main-menu-two__cart icon-shopping-cart"></a>
-                                  </div>
-                              </div>
-                          </div>
+                    
+              
                           <div class="main-menu-two__btn-box">
                               <a href="contact.html" class="thm-btn thm-btn-two main-menu-two__btn">Contact us</a>
                           </div>

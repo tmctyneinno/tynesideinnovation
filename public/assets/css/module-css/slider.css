@@ -245,7 +245,7 @@
 .banner-two {
     position: relative;
     display: block;
-    background-color: #121A46;
+    background-color: #2b5d2d4a;
     padding: 300px 0 115px;
     z-index: 1;
 }
@@ -293,7 +293,7 @@
     position: relative;
     display: block;
     font-size: 52px;
-    color: var(--finris-white);
+    color: var(--finris-black);
     font-weight: 400;
     line-height: 1.1em;
     text-transform: uppercase;
@@ -438,7 +438,7 @@
 }
 
 .banner-two__text {
-    color: rgba(var(--finris-white-rgb), .70);
+    color: rgba(var(--finris-black-rgb), .70);
 }
 
 .banner-two__active-customer-img-box {

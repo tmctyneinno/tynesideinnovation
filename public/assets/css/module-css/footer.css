@@ -516,7 +516,7 @@
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: #151B4E;
+    background-color:#2b5d2d30;
     z-index: 1;
 }
 
@@ -622,7 +622,7 @@
     border: 1px solid var(--finris-gray);
     border-radius: 50%;
     font-size: 13px;
-    color: var(--finris-white);
+    color: var(--finris-black);
     overflow: hidden;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -660,11 +660,11 @@
 
 .footer-widget-two__get-in-touch-list li .text p {
     font-size: 16px;
-    color: var(--finris-white);
+    color: var(--finris-black);
 }
 
 .footer-widget-two__get-in-touch-list li .text p a {
-    color: var(--finris-white);
+    color: var(--finris-black);
 }
 
 .footer-widget-two__get-in-touch-list li .text p a:hover {
@@ -682,7 +682,7 @@
 .site-footer-two__social-title {
     font-size: 18px;
     font-weight: 400;
-    color: var(--finris-white);
+    color: var(--finris-black);
 }
 
 .site-footer-two__social {
@@ -764,7 +764,7 @@
     position: relative;
     display: block;
     font-size: 20px;
-    color: var(--finris-white);
+    color: var(--finris-black);
     text-transform: uppercase;
     font-weight: 400;
     line-height: 29px;
@@ -806,7 +806,7 @@
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--finris-white);
+    color: var(--finris-black);
     font-weight: 500;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -848,7 +848,8 @@
     position: relative;
     display: block;
     padding: 31.5px 0;
-    border-top: 1px solid #2F5183;
+    border-top: 1px solid #2b5d2d;
+    background: #2b5d2d;
 }
 
 .site-footer-two__bottom-inner {
