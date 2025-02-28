@@ -26,7 +26,7 @@ class PagesController extends Controller
             // 'blog' => 'frontend.blog-details',
             'consultant-form' => 'users.pages.consultant-form',
             'faq' => 'frontend.faq',
-            'career' => 'frontend.careers',
+            'our-team' => 'frontend.our-team',
             'how-we-work' => 'frontend.how-we-work',
             'terms-conditions'  => 'frontend.terms-conditions',
             'privacy-policy'  => 'frontend.privacy-policy',
@@ -39,12 +39,12 @@ class PagesController extends Controller
         ];
 
         $servicesPages = [ 
-            'cloud-services',
-            'it-consultancy',
-            'cyber-security-solution',
-            'manage-it-services',
-            'multimedia',
-            'animation-design',
+            'web-development',
+            'branding-design',
+            'digital-marketing',
+            'app-development',
+            'search-engine',
+            'it-solutions',
             'imaging-and-digital-printing'
         ];
         
@@ -58,18 +58,8 @@ class PagesController extends Controller
             if (!$solution) {
                 return view('frontend.404'); 
             }
-    
-            $solutionItem = Service::where('title', $solution->name)->first();
-    
-            if (!$solutionItem) {
-                return view('frontend.404'); 
-            }
-    
-            $relatedSolutions = Service::where('id', '!=', $solutionItem->id)
-                                ->latest()
-                                ->get();
-    
-            return view('frontend.services.services-details', compact('solutionItem', 'relatedSolutions'));
+          
+            return view("frontend.services.$slug");
         }
         else { 
                 // If referral code is not found, return 404

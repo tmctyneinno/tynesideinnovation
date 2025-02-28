@@ -1094,7 +1094,7 @@ img.clickMe {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #121A46;
+  background-color: #eee;
   min-width: 280px;
   padding: 25px 30px 25px;
   display: flex;
@@ -1163,7 +1163,7 @@ img.clickMe {
   position: relative;
   display: flex;
   align-items: center;
-  color: rgba(var(--finris-white-rgb), 0.80);
+  color: rgba(var(--finris-black-rgb), 0.80);
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
@@ -1180,7 +1180,8 @@ img.clickMe {
 .main-menu .main-menu__list>li>ul>li>ul>li:hover>a,
 .stricky-header .main-menu__list>li>ul>li:hover>a,
 .stricky-header .main-menu__list>li>ul>li>ul>li:hover>a {
-  color: rgba(var(--finris-white-rgb), 1.0);
+  /* color: rgba(var(--finris-white-rgb), 1.0); */
+  color: rgba(var(--finris-black-rgb), 1.0);
   padding-left: 5px;
 }
 
@@ -1205,7 +1206,8 @@ img.clickMe {
 .main-menu .main-menu__list>li>ul>li>ul>li.dropdown:hover>a::before,
 .stricky-header .main-menu__list>li>ul>li.dropdown:hover>a::before,
 .stricky-header .main-menu__list>li>ul>li>ul>li.dropdown:hover>a::before {
-  color: var(--finris-base);
+  /* color: var(--finris-base); */
+  color: rgba(var(--finris-black-rgb), 1.0);
   transform: translateY(-50%) scale(1) rotate(90deg);
 }
 
@@ -1462,6 +1464,7 @@ img.clickMe {
   justify-content: space-between;
   line-height: 30px;
   color: #ffffff;
+  /* color:var(--finris-black-rgb); */
   font-size: 14px;
   font-family: var(--finris-font, "Rubik", sans-serif);
   font-weight: 500;

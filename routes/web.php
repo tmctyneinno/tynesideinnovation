@@ -8,7 +8,7 @@ use App\Http\Controllers\Admin\BlogController;
 
 require __DIR__.'/admin.php';
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 

@@ -1,4 +1,4 @@
-@extends('layouts.appInner')
+@extends('layouts.app')
 <style>
     .custom-nav-link {
         color: #022d62 !important;

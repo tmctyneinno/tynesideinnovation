@@ -97,7 +97,7 @@
                     <div class="site-footer-two__bottom-inner">
                         <div class="site-footer-two__copyright">
                             <p class="site-footer-two__copyright-text">
-                                ©Copyright {{ date('Y') }} <a href="#">Tynesideinnovation</a> All Rights Reserved
+                                ©Copyright {{ date('Y') }}. All Rights Reserved 
                             </p>
                         </div>
                     </div>

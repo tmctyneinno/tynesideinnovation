@@ -50,7 +50,9 @@
     <link rel="stylesheet" href="{{asset('assets/css/module-css/sliding-text.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/module-css/serving.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/module-css/welcome.css')}}" />
-
+    <link rel="stylesheet" href="{{asset('assets/css/module-css/page-header.css')}}" />
+    
+@yield('style')
     <!-- template styles -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}" />

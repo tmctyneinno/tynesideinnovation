@@ -64,7 +64,8 @@
                               data-aos-delay="200">
                               <p class="banner-two__text">Leading the way in bespoke Creative Designs & Arts, Digital Prints, and IT Solution Managed Services</p>
                               <div class="banner-two__active-customer-img-box">
-                                  <img src="{{asset('/assets/images/resources/banner-two-active-customer-img-1.png')}}" alt="">
+                                  {{-- <img src="{{asset('/assets/images/resources/banner-two-active-customer-img-1.png')}}" alt=""> --}}
+                                  <img src="{{asset('/assets/images/resources/newsletter-one-img-2.png')}}" alt="">
                               </div>
                               <div class="banner-two__active-customer">
                                   <div class="banner-two__active-customer-count count-box">
@@ -312,11 +313,11 @@
                             <img src="{{asset('/assets/images/icon8.png')}}" alt="">
                           </div>
                           <div class="services-three__content">
-                              <h3 class="services-three__title"><a href="services.html">BRANDING & LOGO DESIGNS</a></h3>
-                              <p class="services-three__text">
-                                Branding is exactly the description of what good and services you have to offer. Your brand is simply your identity and ambassador behind the walls of places where you are yet to physically appear
-                              </p>
-                          </div>
+                            <h3 class="services-three__title"><a href="services.html">IMAGING & DIGITAL PRINTING</a></h3>
+                            <p class="services-three__text">
+                                We offer professional imaging and digital printing services that bring your ideas to life with precision and clarity. Whether you need business materials, promotional prints, or large-format signage, our advanced printing technology ensures vibrant colors, sharp details, and long-lasting quality.
+                            </p>
+                        </div>
                       </div>
                   </div>
                   <!--Services Three Single End -->
@@ -422,12 +423,12 @@
                         </div>
                         <div class="portfolio-one__content">
                             <h3 class="portfolio-one__title">
-                                <a href="portfolio-details.html">
-                                    {!! $item->content !!}
+                                <a href=" {{$item->link}}">
+                                    {!! $item->title !!}
                                 </a>
                             </h3>
                             <div class="portfolio-one__btn-box">
-                                <a href="portfolio-details.html" class="portfolio-one__btn thm-btn"><span
+                                <a href=" {{$item->link}}" class="portfolio-one__btn thm-btn"><span
                                         class="icon-right"></span> Know More</a>
                             </div>
                         </div>
