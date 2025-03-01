@@ -53,8 +53,8 @@
                                     <li><a href="{{ route('home.pages','about-us')}}">About</a></li>
                                     <li><a href="{{ route('home.pages','our-values')}}">Our Value</a></li>
                                     <li><a href="{{ route('home.pages','blog')}}">Blog</a></li>
-                                    <li><a href="{{ route('home.pages','mission-and-vision')}}">Mission and Vision</a></li>
-                                    <li><a href="{{ route('home.pages','career')}}">Careers </a></li>
+                                    {{-- <li><a href="{{ route('home.pages','mission-and-vision')}}">Mission and Vision</a></li> --}}
+                                    {{-- <li><a href="{{ route('home.pages','career')}}">Careers </a></li> --}}
                                 </ul>
                             </div>
                         </div>
