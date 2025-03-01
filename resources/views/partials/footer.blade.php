@@ -61,13 +61,16 @@
 
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div class="footer-widget-two__support">
-                                <h4 class="footer-widget-two__title">IT Services</h4>
+                                <h4 class="footer-widget-two__title">IT Services</h4> 
                                 <ul
                                     class="footer-widget-two__quick-links-list footer-widget-two__support-list list-unstyled">
-                                    <li><a href="{{ route('home.pages','cloud-services')}}">Cloud Services</a></li>
-                                    <li><a href="{{ route('home.pages','it-consultancy')}}">IT Consultancy</a></li>
-                                    <li><a href="{{ route('home.pages','cyber-security-solution')}}">Cyber Security Solution</a></li>
-                                    <li><a href="{{ route('home.pages','manage-it-services')}}">Manage IT Services</a></li>
+                                    <li><a href="{{ route('home.pages','web-development')}}">Web Development</a></li>
+                                    <li><a href="{{ route('home.pages','branding-design')}}">Branding & Logo Design</a></li>
+                                    <li><a href="{{ route('home.pages','digital-marketing')}}">Digital Marketing</a></li>
+                                    <li><a href="{{ route('home.pages','app-development')}}">App Develpment</a></li>
+                                    <li><a href="{{ route('home.pages','search-engine')}}">Search Engine Optimization</a></li>
+                                    <li><a href="{{ route('home.pages','it-solutions')}}">IT Solutions</a></li>
+                                    <li><a href="{{ route('home.pages','imaging-and-digital-printing')}}">Imaging and Digital Printing</a></li>
                                 </ul>
                             </div>
                         </div>
