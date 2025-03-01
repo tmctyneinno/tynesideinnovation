@@ -32,7 +32,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 100px;
-    background: linear-gradient(90deg, #003496 0%, #0057FC 100%);
+    background: var(--finris-primary);
     border-radius: 20px;
     overflow: hidden;
     padding: 57px 65px 55px;

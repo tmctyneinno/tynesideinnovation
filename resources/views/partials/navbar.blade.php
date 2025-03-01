@@ -1,9 +1,9 @@
 <body class="custom-cursor">
-  <div class="loader js-preloader">
+  {{-- <div class="loader js-preloader">
       <div></div>
       <div></div>
       <div></div>
-  </div>
+  </div> --}}
   <div class="page-wrapper">
       <header class="main-header-two">
           <div class="main-menu-two__top">

@@ -54,8 +54,8 @@
                                 </div>
                             </div>
                             <div class="team-page__content">
-                                <h4 class="team-page__title"><a href="team-details.html">Sarah Mitchell</a></h4>
-                                <p class="team-page__text">Marketing Director</p>
+                                <h4 class="team-page__title"><a href="#"></a></h4>
+                                <p class="team-page__text"></p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-1">
                                         <img src="assets/images/shapes/team-page-social-shape-1.png" alt="">

@@ -215,7 +215,7 @@
                           style="background-image: url(assets/images/shapes/cta-one-shape-bg.png);"></div>
                       <h3 class="cta-one__title">Start your journey with our <br> exceptional services.</h3>
                       <div class="cta-one__btn">
-                          <a href="contact.html">Get a Quote <span class=" icon-right-arrow-1"></span></a>
+                        <a href="{{ route('home.pages','contact')}}">Contact Us <span class=" icon-right-arrow-1"></span></a>
                       </div>
                   </div>
               </div>
