@@ -151,6 +151,27 @@
                         </div>
                     </div>
                     {{-- ------end---- --}}
+                      <!--Team Page Single Start-->
+                      <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="team-page__single">
+                            <div class="team-page__img-box">
+                                <div class="team-page__img">
+                                    <img src="{{asset('/assets/images/team/est.png')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="team-page__content">
+                                <h4 class="team-page__title"><a href="#">Esther Akinyemi</a></h4>
+                                <p class="team-page__text">UI/UX Designer</p>
+                                <div class="team-page__social">
+                                    <div class="team-page__social-shape-2">
+                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
+                                    </div>
+                                    <a href="#"><span class="icon-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- ------end---- --}}
                      <!--Team Page Single Start-->
                      <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
@@ -214,6 +235,8 @@
                         </div>
                     </div>
                     {{-- ------end---- --}}
+
+                   
                   
                 </div>
             </div>
