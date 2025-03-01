@@ -40,6 +40,7 @@ class PagesController extends Controller
             'our-services' => 'frontend.services',
             'tyneprints' => 'frontend.tyneprints',
             'porfolio' => 'frontend.porfolio',
+            'management' => 'frontend.management'
         ];
 
         $servicesPages = [ 
