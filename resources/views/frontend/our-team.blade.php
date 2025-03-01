@@ -121,7 +121,7 @@
                             </div>
                             <div class="team-page__content">
                                 <h4 class="team-page__title"><a href="#">Michael Ozoudeh</a></h4>
-                                <p class="team-page__text">Team Lead: Software Department</p>
+                                <p class="team-page__text">Team Lead: IT Department</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
                                         {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
