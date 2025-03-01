@@ -1,148 +1,144 @@
-@extends('layouts.appInner')
-<style>
-  .custom-nav-link{
-    color: #022d62 !important;
-  }
-</style>
+@extends('layouts.app')
+
+@section('style')
+<link rel="stylesheet" href="{{asset('/assets/css/module-css/contact.css')}}" />
+@endsection
 @section('content')
+ <!--Page Header Start-->
+ <section class="page-header">
+  <div class="page-header__bg" style="background-image: url(assets/images/shapes/page-header-bg-shape.png);">
+  </div>
+  <div class="page-header__shape-1">
+      <img src="assets/images/shapes/page-header-shape-1.png" alt="">
+  </div>
+  <div class="container">
+      <div class="page-header__inner">
+          <h2>Contact <span>Us</span></h2>
+          <div class="thm-breadcrumb__inner">
+              <ul class="thm-breadcrumb list-unstyled">
+                  <li><i class="icon-home"></i><a href="index.html">Home</a></li>
+                  <li><span></span></li>
+                  <li>Contact Us</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</section>
+<!--Page Header End-->
 
-<!--=================================
-    contact Form -->
-    <section class="space-ptb">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h1>Contact us</h1>
-              <p>Drop us a line! We’ll set up a time to chat over the phone or in-person to know more about your business needs. All primary conferences are free of charge.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-lg-around position-relative pt-5">
-          <div class="col-lg-4 col-md-5 mb-4">
-            <div class="is-sticky">
-              <h4 class="mb-4">Let’s talk about what you want to accomplish and how we can make it happen.</h4>
-              <h5 class="text-light">This is the beginning of creating the life that you want to live.</h5>
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-7 pe-lg-5">
-            <div class="p-4 p-md-5 bg-white shadow">
-              <h3>Need assistance? please fill the form</h3>
-              <form class="mt-4">
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="exampleInputLname" placeholder="Last Name">
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="exampleInputEmail" placeholder="Email Address">
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="exampleInputEnquiry" placeholder="Enquiry Type">
-                </div>
-                <div class="mb-4">
-                  <textarea class="form-control" id="exampleInputEnquiry-Description" placeholder="Enquiry Description" rows="5"></textarea>
-                </div>
-                <div class="mb-4">
-                  <div class="form-check ms-1">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      I agree to talk about my project with Hi-soft
-                    </label>
+<!--Contact Page Start-->
+<section class="contact-page">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-6 col-lg-6">
+              <div class="contact-page__left">
+                  <div class="row">
+                      <!--Contact Page Contact Single Start-->
+                      <div class="col-xl-12 col-lg-6 col-md-6">
+                          <div class="contact-page__contact-single">
+                              <div class="contact-page__contact-icon">
+                                  <span class="icon-pin"></span>
+                                  <div class="contact-page__contact-icon-shape"></div>
+                              </div>
+                              <h3 class="contact-page__contact-single-title">Our Address</h3>
+                              
+                               <p><strong>EUROPE: </strong> International House, 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom
+                              </p> 
+                              <p> <strong>AFRICA:</strong>
+                              1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</p>
+                            
+                              <p> <strong> Asia: </strong>
+                               21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</p>
+                           
+                          </div>
+                      </div>
+                      <!--Contact Page Contact Single End-->
+                      <!--Contact Page Contact Single Start-->
+                      <div class="col-xl-6 col-lg-6 col-md-6">
+                          <div class="contact-page__contact-single">
+                              <div class="contact-page__contact-icon">
+                                  <span class="icon-user"></span>
+                                  <div class="contact-page__contact-icon-shape"></div>
+                              </div>
+                              <h3 class="contact-page__contact-single-title">Phone Contact</h3>
+                                                    <p>Nigeria – +2349153414314</p>
+                                      <p>United Kingdom Tel:  +44 74665 88324</p>
+                                      <p>Republic of Ireland: +353 877123968</p>
+                                    
+                          </div>
+                      </div>
+                      <!--Contact Page Contact Single End-->
+                      <!--Contact Page Contact Single Start-->
+                      <div class="col-xl-6 col-lg-6 col-md-6">
+                          <div class="contact-page__contact-single">
+                              <div class="contact-page__contact-icon">
+                                  <span class="icon-live-chat"></span>
+                                  <div class="contact-page__contact-icon-shape"></div>
+                              </div>
+                              <h3 class="contact-page__contact-single-title">Email Contact</h3>
+                              <p>All enquiries:  <br>  enquiries@tynesideinnovation.com</p>
+                              <p>Technical Assistance & Support : <br>  info@tynesideinnovation.com</p>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class="mb-0">
-                  <button type="submit" class="btn btn-primary">Send Massage<i class="fas fa-arrow-right ps-3"></i></button>
-                </div>
-              </form>
-            </div>
+              </div>
           </div>
-          <div class="contact-bg-logo text-center">
-            <i class="fas fa-comment"></i>
+          <div class="col-xl-6 col-lg-6">
+              <div class="contact-page__right">
+                  <div class="contact-page__contact-form-title-box">
+                      <div class="contact-page__contact-form-title-icon">
+                          <img src="assets/images/icon/contact-form-icon-1.png" alt="">
+                      </div>
+                      <h3 class="contact-page__contact-form-title">Send Us Message</h3>
+                  </div>
+                  <p class="contact-page__contact-form-text">Use this form to effortlessly contact us with any
+                      questions, feedback, or inquiries.</p>
+                  <form class="contact-form-validated contact-page__form" action=""
+                      method="post" novalidate="novalidate">
+                      <div class="row">
+                          <div class="col-xl-12">
+                              <div class="contact-page__input-box">
+                                  <div class="contact-page__input-icon">
+                                      <span class="icon-user"></span>
+                                  </div>
+                                  <input type="text" name="name" placeholder="Name" required="">
+                              </div>
+                          </div>
+                          <div class="col-xl-12">
+                              <div class="contact-page__input-box">
+                                  <div class="contact-page__input-icon">
+                                      <span class="icon-envelope"></span>
+                                  </div>
+                                  <input type="email" name="email" placeholder="Email" required="">
+                              </div>
+                          </div>
+                          <div class="col-xl-12">
+                              <div class="contact-page__input-box">
+                                  <div class="contact-page__input-icon">
+                                      <span class="icon-resume"></span>
+                                  </div>
+                                  <input type="text" name="Phone" placeholder="Subjects" required="">
+                              </div>
+                          </div>
+                          <div class="col-xl-12">
+                              <div class="contact-page__input-box text-message-box">
+                                  <div class="contact-page__input-icon">
+                                      <span class="icon-write"></span>
+                                  </div>
+                                  <textarea name="message" placeholder="Message"></textarea>
+                              </div>
+                              <div class="contact-page__btn-box">
+                                  <button type="submit" class="thm-btn contact-page__btn"><span
+                                          class="icon-right"></span>SEND MESSAGE</button>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+                  <div class="result"></div>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
-    <!--=================================
-    contact Form  -->
-
-    <!--=================================
-    contact Form info -->
-    <section class="space-pb">
-      <div class="container">
-        <div class="row justify-content-lg-around">
-          <div class="col-lg-4 col-md-5 mb-4">
-            <div class="is-sticky">
-              <div class="section-title">
-                <h2>Doing business with us is easy</h2>
-              </div>
-              <a href="#" class="btn btn-light-round btn-round">Get Direction<i class="fas fa-arrow-right ps-3"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-7 pe-lg-5">
-            <div class="row">
-              <div class="col-sm-6 mb-4 mb-md-5">
-                <img class="img-fluid mb-4" src="images/about/map-lacation-img1.png" alt="">
-                <h4>EUROPE</h4>
-                <h6 class="text-light mb-0">
-                  International House, 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom
-                </h6>
-              </div>
-              <div class="col-sm-6 mb-4 mb-md-5">
-                <img class="img-fluid mb-4" src="images/about/map-lacation-img2.png" alt="">
-                <h4>AFRICA</h4>
-                <h6 class="text-light mb-0">1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</h6>
-              </div>
-              <div class="col-sm-6 mb-4 mb-sm-0">
-                <img class="img-fluid mb-4" src="images/about/map-lacation-img3.png" alt="">
-                <h4>Asia</h4>
-                <h6 class="text-light mb-0"> 21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</h6>
-              </div>
-              {{-- <div class="col-sm-6">
-                <img class="img-fluid mb-4" src="images/about/map-lacation-img4.png" alt="">
-                <h4>New York</h4>
-                <h6 class="text-light mb-0">Virginia Drive Temple Hills</h6>
-              </div> --}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--=================================
-    contact Form info-->
-
-    <!--=================================
-    News -->
-    <section class="space-pb">
-      <div class="container">
-        <div class="row dark-background">
-          <div class="col-sm-6 col-lg-6 mb-4 mb-lg-0">
-            <div class="feature-info feature-info-style-04">
-              <div class="feature-info-content">
-                <h4 class="mb-3 fw-normal feature-info-title">Phone number</h4>
-                <p>Nigeria – +2349153414314</p>
-                <p>United Kingdom Tel:  +44 74665 88324</p>
-                <p>Republic of Ireland: +353 877123968</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-lg-6 mb-4 mb-lg-0">
-            <div class="feature-info feature-info-style-04">
-              <div class="feature-info-content">
-                <h4 class="mb-3 fw-normal feature-info-title">Email Address</h4>
-                <p>All enquiries:    enquiries@tynesideinnovation.com</p>
-                <p>Technical Assistance & Support :  info@tynesideinnovation.com</p>
-              </div>
-            </div>
-          </div>
-          
-         
-        </div>
-      </div>
-    </section>
-    <!--=================================
-    News -->
-
+  </div>
+</section>
+<!--Contact Page End-->
 @endsection

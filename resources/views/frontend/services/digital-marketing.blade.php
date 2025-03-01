@@ -11,14 +11,14 @@
           </div>
           <div class="container">
               <div class="page-header__inner">
-                  <h2></h2>
+                  <h2>Digital Marketing</h2>
                   <div class="thm-breadcrumb__inner">
                       <ul class="thm-breadcrumb list-unstyled">
                           <li><i class="icon-home"></i><a href="index.html">Home</a></li>
                           <li><span></span></li>
                           <li><a href="services.html">Services</a></li>
                           <li><span></span></li>
-                          <li></li>
+                          <li>Digital Marketing</li>
                       </ul>
                   </div>
               </div>
@@ -33,36 +33,33 @@
                   <div class="col-xl-8 col-lg-7">
                       <div class="services-details__left">
                           <div class="services-details__img">
-                              <img src="" alt="">
+                              <img src="{{asset('/assets/images/digis.png')}}" style="width:500px" alt="">
                           </div>
                           <div class="services-details__content">
                               <h3 class="services-details__title-1"></h3>
                               <div class="services-details__shape-1"></div>
                               <p class="services-details__text-1"></p>
-                              <h3 class="services-details__title-2">Services Core Features</h3>
-                              <p class="services-details__text-2">We perform in-depth research to analyze market
-                                  trends, competitor tactics, and audience behavior, ensuring your campaigns are
-                                  data-driven and strategically effective. We work with you to set clear, measurable
-                                  objectives that align with your business goals.</p>
+                              <h3 class="services-details__title-2">Grow Your Business With Digital Marketing</h3>
+                              <p class="services-details__text-2">We can help you develop and execute digital marketing solutions that deliver real results.</p>
                               <div class="services-details__points-box">
                                   <ul class="services-details__points-list list-unstyled">
                                       <li>
                                           <div class="icon">
                                               <span class="icon-check"></span>
                                           </div>
-                                          <p>Strategic Campaign Planning</p>
+                                          <p>We help write amazing contents for your upcoming projects</p>
                                       </li>
                                       <li>
                                           <div class="icon">
                                               <span class="icon-check"></span>
                                           </div>
-                                          <p>Social Media Management</p>
+                                          <p>We utilize proven result-driven advertising, SEO and Social media marketing</p>
                                       </li>
                                       <li>
                                           <div class="icon">
                                               <span class="icon-check"></span>
                                           </div>
-                                          <p>Targeted Audience Engagement</p>
+                                          <p>We help write amazing contents for your upcoming projects</p>
                                       </li>
                                   </ul>
                                   <ul class="services-details__points-list list-unstyled">
@@ -70,19 +67,20 @@
                                           <div class="icon">
                                               <span class="icon-check"></span>
                                           </div>
-                                          <p>Data-Driven Performance Analytics</p>
+                                          <p>We help write amazing contents for your upcoming projects</p>
                                       </li>
                                       <li>
                                           <div class="icon">
                                               <span class="icon-check"></span>
                                           </div>
-                                          <p>Comprehensive Brand Visibility</p>
+                                          <p>
+                                            We utilize proven result-driven advertising, SEO and Social media marketing</p>
                                       </li>
                                       <li>
                                           <div class="icon">
                                               <span class="icon-check"></span>
                                           </div>
-                                          <p>Innovative Digital Marketing Tools</p>
+                                          <p>We help write amazing contents for your upcoming projects</p>
                                       </li>
                                   </ul>
                               </div>
@@ -93,7 +91,7 @@
                                               <div class="services-details__single-icon">
                                                   <img src="assets/images/icon/services-details-icon-1.png" alt="">
                                               </div>
-                                              <p>Market Trend<br> Analysis</p>
+                                              <p>ATTRACT LEADS</p>
                                           </div>
                                       </div>
                                       <div class="col-xl-3 col-lg-6 col-md-6">
@@ -101,7 +99,7 @@
                                               <div class="services-details__single-icon">
                                                   <img src="assets/images/icon/services-details-icon-2.png" alt="">
                                               </div>
-                                              <p>Competitor<br> Strategy </p>
+                                              <p>NURTURE & CONVERT </p>
                                           </div>
                                       </div>
                                       <div class="col-xl-3 col-lg-6 col-md-6">
@@ -109,164 +107,88 @@
                                               <div class="services-details__single-icon">
                                                   <img src="assets/images/icon/services-details-icon-3.png" alt="">
                                               </div>
-                                              <p>Audience Behavior<br> Research</p>
-                                          </div>
-                                      </div>
-                                      <div class="col-xl-3 col-lg-6 col-md-6">
-                                          <div class="services-details__single-service">
-                                              <div class="services-details__single-icon">
-                                                  <img src="assets/images/icon/services-details-icon-4.png" alt="">
-                                              </div>
-                                              <p>Custom Campaign<br> Development</p>
+                                              <p>BRAND SUSTENANCE</p>
                                           </div>
                                       </div>
                                   </div>
                               </div>
-                              <div class="services-details__progress-box">
-                                  <div class="row">
-                                      <div class="col-xl-6 col-lg-6">
-                                          <div class="services-details__progress-left">
-                                              <h3 class="services-details__progress-left-title">Benefits of Our
-                                                  Services</h3>
-                                              <p class="services-details__progress-left-text">Enhance your social
-                                                  media profiles and produce compelling content to strengthen your
-                                                  brand's online visibility and grow your follower base. We use
-                                                  targeted advertising and robust SEO strategies to attract
-                                                  high-quality traffic to your website, leading to improved conversion
-                                                  rates.</p>
-                                          </div>
-                                      </div>
-                                      <div class="col-xl-6 col-lg-6">
-                                          <div class="services-details__progress-right">
-                                              <ul class="services-details__progress-list list-unstyled">
-                                                  <li>
-                                                      <div class="progress-levels">
-                                                          <!--Skill Box-->
-                                                          <div class="progress-box">
-                                                              <div class="inner count-box">
-                                                                  <div class="text">Success Ration</div>
-                                                                  <div class="bar">
-                                                                      <div class="bar-innner">
-                                                                          <div class="skill-percent">
-                                                                              <span class="count-text"
-                                                                                  data-speed="3000"
-                                                                                  data-stop="100">0</span>
-                                                                              <span class="percent">%</span>
-                                                                          </div>
-                                                                          <div class="bar-fill" data-percent="100">
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  </li>
-                                                  <li>
-                                                      <div class="progress-levels">
-                                                          <!--Skill Box-->
-                                                          <div class="progress-box">
-                                                              <div class="inner count-box">
-                                                                  <div class="text">Positive Brand Image</div>
-                                                                  <div class="bar">
-                                                                      <div class="bar-innner">
-                                                                          <div class="skill-percent">
-                                                                              <span class="count-text"
-                                                                                  data-speed="3000"
-                                                                                  data-stop="80">0</span>
-                                                                              <span class="percent">%</span>
-                                                                          </div>
-                                                                          <div class="bar-fill" data-percent="70">
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  </li>
-                                                  <li>
-                                                      <div class="progress-levels">
-                                                          <!--Skill Box-->
-                                                          <div class="progress-box">
-                                                              <div class="inner count-box">
-                                                                  <div class="text">Website Rankig</div>
-                                                                  <div class="bar">
-                                                                      <div class="bar-innner">
-                                                                          <div class="skill-percent">
-                                                                              <span class="count-text"
-                                                                                  data-speed="3000"
-                                                                                  data-stop="98">0</span>
-                                                                              <span class="percent">%</span>
-                                                                          </div>
-                                                                          <div class="bar-fill" data-percent="80">
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <h3 class="services-details__title-3">Why Our Services</h3>
-                              <p class="services-details__text-3">Tailored strategies and campaigns crafted to address
-                                  your specific business objectives and requirements. Our team of skilled
-                                  professionals boasts a proven history of success in digital marketing and social
-                                  media. We leverage the latest technology and tools to enhance the effectiveness of
-                                  your campaigns.</p>
+                           
+                              <h3 class="services-details__title-3">Our Services</h3>
+                             
                               <div class="services-details__points-and-img">
                                   <div class="row">
-                                      <div class="col-xl-6">
+                                      <div class="col-xl-12">
                                           <ul class="services-details__points-1 list-unstyled">
                                               <li>
                                                   <div class="icon">
                                                       <span class="icon-check"></span>
                                                   </div>
-                                                  <p>Customized Solutions: We tailor our <br>strategies </p>
+                                                  <p>Lead Generation Projects </p>
                                               </li>
+                                              <p>Looking to generate leads for your business? We can help. Our lead generation service focuses on identifying your ideal target audience and creating lead magnets to attract them to your business.</p>
+                                              
                                               <li>
                                                   <div class="icon">
                                                       <span class="icon-check"></span>
                                                   </div>
-                                                  <p>Our team of experts brings extensive <br>knowledge </p>
+                                                  <p>Mobile Marketing </p>
                                               </li>
+                                              <P> Let’s help you reach your consumers through mobile marketing using various mobile platforms like: Whatsapp, SMS, Mobile App</P>
                                               <li>
                                                   <div class="icon">
                                                       <span class="icon-check"></span>
                                                   </div>
-                                                  <p>We utilize the latest technology and tools to optimize your
-                                                      campaigns</p>
+                                                  <p>Professional Services Marketing</p>
                                               </li>
+                                              <p> Firms that offer Professional Services cannot be promoted the same way that product brands are promoted.</p>
                                               <li>
                                                   <div class="icon">
                                                       <span class="icon-check"></span>
                                                   </div>
-                                                  <p>Enhance your social media profiles and produce compelling content
+                                                  <p>Email Marketing
                                                   </p>
                                               </li>
+                                              <p>Several research has proven that email marketing still delivers a higher return on investment than any other Digital Marketing medium.</p>
+                                              <li>
+                                                <div class="icon">
+                                                    <span class="icon-check"></span>
+                                                </div>
+                                                <p>Content Marketing
+                                                </p>
+                                            </li>
+                                            <p>Content drives all digital marketing elements. And great content added to good design can drive significant sales and engagement..</p>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-check"></span>
+                                                </div>
+                                                <p>Growth Marketing Services
+                                                </p>
+                                            </li>
+                                            <p>Our Growth Marketing Service utilizes multiple digital marketing tactics and platforms to create awareness, engage with prospects and generate leads.</p>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-check"></span>
+                                                </div>
+                                                <p>Social Media Marketing
+                                                </p>
+                                            </li>
+                                            <p>Your customers and prospects are on Social media. Your brand should be too.</p>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-check"></span>
+                                                </div>
+                                                <p>Search Engine Optimisation
+                                                </p>
+                                            </li>
+                                            <p>There are 3.5 billion searches on Google daily. Clearly, consumers are turning more to search engines help them take buying decisions.</p>
                                           </ul>
                                       </div>
-                                      <div class="col-xl-6">
-                                          <div class="services-details__points-img">
-                                              <img src="assets/images/services/services-details-points-img-1.jpg"
-                                                  alt="">
-                                          </div>
-                                      </div>
+                                      
                                   </div>
                               </div>
-                              <p class="services-details__text-4">The concept gained popularity in the 1960s with the
-                                  introduction of Letraset sheets featuring Lorem Ipsum passages, and it has continued
-                                  to evolve with the advent of desktop publishing software such as Aldus PageMaker,
-                                  which includes different versions of Lorem Ipsum.</p>
-                              <div class="services-details__img-two">
-                                  <img src="assets/images/services/services-details-img-2.jpg" alt="">
-                              </div>
-                              <h3 class="services-details__title-4">Get Started:</h3>
-                              <p class="services-details__text-5">By leveraging these benefits, your business can
-                                  achieve greater online visibility, improved engagement, and increased conversions,
-                                  ultimately driving growth and success.</p>
+                            
                           </div>
                       </div>
                   </div>
@@ -316,12 +238,10 @@
                           <div class="services-details__contact-box">
                               <h3>Contact Us</h3>
                               <span></span>
-                              <p class="services-details__contact-text">Lorem Ipsum is simply dummy text of the
-                                  printing and typesetting industry. </p>
+                              <p class="services-details__contact-text">We are very close to your doorsteps</p>
                               <div class="services-details__contact-btn-box">
                                   <a href="#" class="services-details__contact-btn thm-btn"><i
-                                          class="icon-right"></i>Send
-                                      Message</a>
+                                          class="icon-right"></i>Contact Us</a>
                               </div>
                           </div>
                       </div>

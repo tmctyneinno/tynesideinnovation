@@ -1,10 +1,8 @@
 @extends('layouts.appInner')
-<style>
-    .custom-nav-link {
-        color: #022d62 !important;
-    }
 
-</style>
+@section('style')
+<link rel="stylesheet" href="{{asset('/assets/css/module-css/contact.css')}}" />
+@endsection
 @section('content')
  
 <!--=================================
