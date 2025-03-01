@@ -1,4 +1,4 @@
-@extends('layouts.appInner')
+@extends('layouts.app')
 <style>
     .custom-nav-link {
         color: #022d62 !important;
@@ -6,42 +6,33 @@
 
 </style>
 @section('content')
- 
-<!--=================================
-    inner banner -->
-    <section class="header-inner bg-overlay-black-50" style="background-image: url('{{ asset('assets/images/header-inner/07.jpg')}}')">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-8">
-              <div class="header-inner-title text-center position-relative">
-                  <h1 class="text-white fw-normal">Terms & Conditions</h1>
-                  <p class="text-white mb-0">By using our services, you agree to abide by our terms and conditions. Please read them carefully to understand your rights and obligations.</p>
-              </div>
-                          
-            </div>
+<section class="page-header">
+  <div class="page-header__bg" style="background-image: url(assets/images/shapes/page-header-bg-shape.png);">
+  </div>
+  <div class="page-header__shape-1">
+      <img src="assets/images/shapes/page-header-shape-1.png" alt="">
+  </div>
+  <div class="container">
+      <div class="page-header__inner">
+          <h2>Terms and Conditions</h2>
+          <div class="thm-breadcrumb__inner">
+              <ul class="thm-breadcrumb list-unstyled">
+                  <li><i class="icon-home"></i><a href="{{route('index')}}">Home</a></li>
+                  <li><span></span></li>
+                  <li><span></span></li>
+                  <li></li>
+              </ul>
           </div>
-        </div>
-      </section>
-      <!--=================================
-      inner banner -->
+      </div>
+  </div>
+</section>
   
-      <!--=================================
-      Case Study Detail -->
-      <section class="space-ptb">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-12">
-              <h2 class="mb-3">Terms & Conditions</h2>
-            </div>
-           
-          </div>
-          
-          
-          <div class="row justify-content-center mt-4 mt-md-5">
-            <div class="col-lg-10">
-              <div class="mb-3 d-flex">
-                <div>
-                  <p>
+
+<section class="services-details">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-8 col-lg-7">
+              <div class="services-details__left">
                     {!! $termsCondition->content !!}
                   </p>
                
@@ -54,22 +45,7 @@
          
         </div>
       </section>
-      <!--=================================
-      Case Study Detail -->
-  
-      <!--=================================
-      Action Box -->
-      <section class="space-pb dark-background">
-        <div class="container">
-          <div class="bg-dark text-center rounded py-5 px-3">
-            <h2 class="text-white">Tell us about your idea, and we’ll make it happen.</h2>
-            <h6 class="text-white">Have a brand problem that needs to be solved? We’d love to hear about it!</h6>
-            <a href="{{ route('home.pages','contact')}}" class="btn btn-primary-round btn-round mx-0 mx-md-3 text-white">Let’s Get Started<i class="fas fa-arrow-right ps-3"></i></a>
-          </div>
-        </div>
-      </section>
-      <!--=================================
-      Action Box -->
+      
   
   
   

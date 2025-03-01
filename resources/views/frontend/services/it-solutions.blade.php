@@ -14,7 +14,7 @@
                   <h2>Managed IT Service</h2>
                   <div class="thm-breadcrumb__inner">
                       <ul class="thm-breadcrumb list-unstyled">
-                          <li><i class="icon-home"></i><a href="index.html">Home</a></li>
+                          <li><i class="icon-home"></i><a href="{{route('index')}}">Home</a></li>
                           <li><span></span></li>
                           <li><a href="services.html">Services</a></li>
                           <li><span></span></li>

@@ -10,7 +10,11 @@ use App\Models\Service;
 use App\Models\ProjectMenu;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
-use App\Http\Controllers\ConsultantFormController; 
+use App\Http\Controllers\ConsultantFormController;
+use App\Mail\ContactUs;
+use App\Models\Blog;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class PagesController extends Controller
 {
@@ -75,6 +79,43 @@ class PagesController extends Controller
         return strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 8));
     }
 
+
+    public function Store(Request $request){
+         $capt = captcha_check($request->captcha);
+         if($capt){
+             Session::flash('message', 'Captcha does not match, try again');
+             Session::flash('alert', 'danger');
+             return back()->withInput($request->all());
+         }
+         $data = [
+             'name' =>  $request->name,
+             'phone' => $request->phone,
+             'email' =>  $request->email,
+             'message' => $request->message
+         ];
+         Session::flash('message', 'Request sent Successfully');
+         Session::flash('alert', 'success');
+         Mail::to('support@tynesideinnovation.com')->send(new ContactUs($data));
+         return back();
     
+
+}
+
+
+
+
+public function details($slug){
+    $postItem = Blog::where('slug', $slug)->first();
+
+    if (!$postItem) { 
+        return view('home.errors.404'); 
+    }
+
+    $relatedPost = Blog::where('slug', '!=', $slug)
+                            ->latest()
+                            ->get();
+
+    return view('frontend.blog.blog-details', compact('postItem', 'relatedPost'));
+}
 
 }

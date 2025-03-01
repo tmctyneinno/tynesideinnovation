@@ -16,7 +16,7 @@
           <h2>Contact <span>Us</span></h2>
           <div class="thm-breadcrumb__inner">
               <ul class="thm-breadcrumb list-unstyled">
-                  <li><i class="icon-home"></i><a href="index.html">Home</a></li>
+                  <li><i class="icon-home"></i><a href="{{route('index')}}">Home</a></li>
                   <li><span></span></li>
                   <li>Contact Us</li>
               </ul>
@@ -83,6 +83,7 @@
                   </div>
               </div>
           </div>
+         
           <div class="col-xl-6 col-lg-6">
               <div class="contact-page__right">
                   <div class="contact-page__contact-form-title-box">
@@ -93,8 +94,11 @@
                   </div>
                   <p class="contact-page__contact-form-text">Use this form to effortlessly contact us with any
                       questions, feedback, or inquiries.</p>
-                  <form class="contact-form-validated contact-page__form" action=""
-                      method="post" novalidate="novalidate">
+                      <p> @if(Session::has('message'))
+                        <span class="btn btn-{{Session::get('alert')}}"> {{Session::get('message')}}</span>
+                        @endif</p>
+                      <form id="" novalidate="novalidate" class="cond " action="{{route('contact-email')}}"method="POST" data-toggle="validator">
+                        @csrf 
                       <div class="row">
                           <div class="col-xl-12">
                               <div class="contact-page__input-box">
@@ -127,6 +131,12 @@
                                   </div>
                                   <textarea name="message" placeholder="Message"></textarea>
                               </div>
+                              <div class="col-xl-12">
+                                <p> @php echo captcha_img() @endphp </p>
+                                <input type="text" placeholder="Enter captcha" class="form-control"  name="captcha" required>
+                                
+                                <div class="help-block with-errors"></div>
+                            </div>
                               <div class="contact-page__btn-box">
                                   <button type="submit" class="thm-btn contact-page__btn"><span
                                           class="icon-right"></span>SEND MESSAGE</button>

@@ -15,7 +15,7 @@
             <h2> Ho<span>w Do </span>We</h2>
             <div class="thm-breadcrumb__inner">
                 <ul class="thm-breadcrumb list-unstyled">
-                    <li><i class="icon-home"></i><a href="index.html">Home</a></li>
+                    <li><i class="icon-home"></i><a href="{{route('index')}}">Home</a></li>
                     <li><span></span></li>
                     <li>How Do We</li>
                 </ul>
