@@ -16,7 +16,7 @@
                       <ul class="thm-breadcrumb list-unstyled">
                           <li><i class="icon-home"></i><a href="{{route('index')}}">Home</a></li>
                           <li><span></span></li>
-                          <li><a href="services.html">Services</a></li>
+                          <li><a href="#">Services</a></li>
                           <li><span></span></li>
                           <li>App Development</li>
                       </ul>

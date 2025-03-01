@@ -11,14 +11,14 @@
           </div>
           <div class="container">
               <div class="page-header__inner">
-                  <h2>Creative Design and Digital Printing</h2>
+                  <h2>Create Design and Printing</h2>
                   <div class="thm-breadcrumb__inner">
                       <ul class="thm-breadcrumb list-unstyled">
                           <li><i class="icon-home"></i><a href="{{route('index')}}">Home</a></li>
                           <li><span></span></li>
-                          <li><a href="services.html">Services</a></li>
+                          <li><a href="#">Services</a></li>
                           <li><span></span></li>
-                          <li>Creative Design and Digital Printing</li>
+                          <li>Create Design and Printing</li>
                       </ul>
                   </div>
               </div>
@@ -39,7 +39,7 @@
                               <h3 class="services-details__title-1"></h3>
                               <div class="services-details__shape-1"></div>
                               <p class="services-details__text-1"></p>
-                              <h3 class="services-details__title-2">Creative Design and Digital Printing</h3>
+                              <h3 class="services-details__title-2">Create Design and Printing</h3>
                               <p class="services-details__text-2">As we all know, imagining is the backbone of the digital world’s revolution, where a million stories can be told in a single image, nailing the storytelling.
 
                                 Oh, you are looking for the exact thing? Welcome the powerhouse of imaging!</p>
