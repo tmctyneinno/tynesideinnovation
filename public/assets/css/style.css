@@ -1481,7 +1481,7 @@ img.clickMe {
 }
 
 .mobile-nav__content .main-menu__list li a.expanded {
-  color: var(--finris-base);
+  color: var(--finris-white);
 }
 
 .mobile-nav__content .main-menu__list>li>a>button,
