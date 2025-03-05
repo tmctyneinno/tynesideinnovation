@@ -582,14 +582,14 @@
                     <div class="item">
                         <div class="blog-one__single">
                             <div class="blog-one__img">
-                                <img src="{{ asset($blog->image) }}" alt="">
+                                <img src="{{ asset($blog->image) }}" alt="" style="width: 200px">
                                 <div class="blog-one__plus">
                                     <a href="{{ route('blog.details', $blog->slug) }}"><span class="icon-plus"></span></a>
                                 </div>
                             </div>
                             <div class="blog-one__content">
                                 <h3 class="blog-one__title"><a href="{{ route('blog.details', $blog->slug) }}">{{ $blog->title}}</a></h3>
-                                <p class="blog-one__text">   {!! Str::limit($blog->content, 30) !!} </p>
+                                {{-- <p class="blog-one__text">   {!! Str::limit($blog->content, 30) !!} </p> --}}
                                
                             </div>
                         </div>
