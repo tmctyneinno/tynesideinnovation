@@ -101,7 +101,7 @@ Route::prefix('admin')->group(function () {
         Route::post('post/blog', [BlogController::class, 'store'])->name('admin.blog.store');
         Route::get('blog/{id}/edit', [BlogController::class, 'edit'])->name('admin.blog.edit');
         Route::put('blog/{id}', [BlogController::class, 'update'])->name('admin.blog.update');
-        Route::get('blog/{id}', [BlogController::class, 'destroy'])->name('admin.blog.destroy');
+        Route::Post('blog/{id}', [BlogController::class, 'destroy'])->name('admin.blog.destroy');
         
         
         //Teams 
