@@ -579,10 +579,10 @@
                 </div>
                 <div class="blog-one__carousel owl-theme owl-carousel">
                     @forelse ($blogs as $blog)
-                    <div class="item">
-                        <div class="blog-one__single" style="width: 400px">
-                            <div class="blog-one__img">
-                                <img src="{{ asset($blog->image) }}" alt="" >
+                    <div class="item" >
+                        <div class="blog-one__single" style=" min-height:400px; max-height:400px">
+                            <div class="blog-one__img" >
+                                <img src="{{ asset($blog->image) }}" style=" min-height:300px; max-height:300px" alt="" >
                                 <div class="blog-one__plus">
                                     <a href="{{ route('blog.details', $blog->slug) }}"><span class="icon-plus"></span></a>
                                 </div>
