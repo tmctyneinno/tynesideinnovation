@@ -105,7 +105,6 @@
                                                             <button type="button" class="btn w-sm btn-light" data-bs-dismiss="modal">Close</button>
                                                             <form method="POST" action="{{ route('admin.blog.destroy', encrypt($blog->id) ) }}">
                                                                 @csrf
-                                                                @method('DELETE')
                                                                 <button type="submit" class="btn w-sm btn-danger">Yes, Delete It!</button>
                                                             </form>
                                                         </div>
