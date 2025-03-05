@@ -121,7 +121,7 @@
                             </div>
                             <div class="team-page__content">
                                 <h4 class="team-page__title"><a href="#">Michael Ozoudeh</a></h4>
-                                <p class="team-page__text">Team Lead: IT Department</p>
+                                <p class="team-page__text">Software Developer (Team Lead)</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
                                         {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
@@ -131,27 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    {{-- ------end---- --}}
-                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="team-page__single">
-                            <div class="team-page__img-box">
-                                <div class="team-page__img">
-                                    <img src="{{asset('/assets/images/team/dan.png')}}" alt="">
-                                </div>
-                            </div>
-                            <div class="team-page__content">
-                                <h4 class="team-page__title"><a href="#">Daniel Eshanokpe</a></h4>
-                                <p class="team-page__text">Fullstack Developer</p>
-                                <div class="team-page__social">
-                                    <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
-                                    </div>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- ------end---- --}}
+                    
                       <!--Team Page Single Start-->
                       <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
@@ -226,6 +206,73 @@
                             <div class="team-page__content">
                                 <h4 class="team-page__title"><a href="#">Alex Duru</a></h4>
                                 <p class="team-page__text">Business Development Executive</p>
+                                <div class="team-page__social">
+                                    <div class="team-page__social-shape-2">
+                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
+                                    </div>
+                                    <a href="#"><span class="icon-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- ------end---- --}}
+
+                    {{-- ------end---- --}}
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="team-page__single">
+                            <div class="team-page__img-box">
+                                <div class="team-page__img">
+                                    <img src="{{asset('/assets/images/team/uka.png')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="team-page__content">
+                                <h4 class="team-page__title"><a href="#">Ukamaka Ibilibor</a></h4>
+                                <p class="team-page__text">Human Resources Manager</p>
+                                <div class="team-page__social">
+                                    <div class="team-page__social-shape-2">
+                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
+                                    </div>
+                                    <a href="#"><span class="icon-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- ------end---- --}}
+
+                    {{-- ------end---- --}}
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="team-page__single">
+                            <div class="team-page__img-box">
+                                <div class="team-page__img">
+                                    <img src="{{asset('/assets/images/team/dan.png')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="team-page__content">
+                                <h4 class="team-page__title"><a href="#">Daniel Eshanokpe</a></h4>
+                                <p class="team-page__text">Fullstack Developer</p>
+                                <div class="team-page__social">
+                                    <div class="team-page__social-shape-2">
+                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
+                                    </div>
+                                    <a href="#"><span class="icon-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- ------end---- --}}
+
+                     {{-- ------end---- --}}
+                     <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="team-page__single">
+                            <div class="team-page__img-box">
+                                <div class="team-page__img">
+                                    <img src="{{asset('/assets/images/team/olawale.png')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="team-page__content">
+                                <h4 class="team-page__title"><a href="#">Abdulganiyu Ibrahim
+                                </a></h4>
+                                <p class="team-page__text">Production & Creative designer</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
                                         {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
