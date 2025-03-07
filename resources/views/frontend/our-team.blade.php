@@ -28,9 +28,6 @@
                 </div>
             </div>
         </section>
-        <!--Page Header End-->
-
-        <!--Team Page Start-->
         <section class="team-page">
             <div class="container">
                 <div class="section-title-two text-center sec-title-animation animation-style2">
@@ -45,8 +42,6 @@
                         <span>skilled team</span></h2>
                 </div>
                 <div class="row">
-                
-                     <!--Team Page Single Start-->
                      <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
                             <div class="team-page__img-box">
@@ -59,15 +54,12 @@
                                 <p class="team-page__text">Digital Marketing Specialist</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {{-- ------end---- --}}
-                     <!--Team Page Single Start-->
                      <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
                             <div class="team-page__img-box">
@@ -80,15 +72,12 @@
                                 <p class="team-page__text">Digital Marketing Specialist</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {{-- ------end---- --}}
-                     <!--Team Page Single Start-->
                      <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
                             <div class="team-page__img-box">
@@ -102,16 +91,12 @@
                                     </p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {{-- ------end---- --}}
-                     <!--Team Page Single Start-->
-                         <!--Team Page Single Start-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
                             <div class="team-page__img-box">
@@ -124,15 +109,12 @@
                                 <p class="team-page__text">Software Developer (Team Lead)</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                      <!--Team Page Single Start-->
                       <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="team-page__single">
                             <div class="team-page__img-box">
@@ -145,7 +127,6 @@
                                 <p class="team-page__text">UI/UX Designer</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
