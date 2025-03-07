@@ -147,7 +147,6 @@
                                 <p class="team-page__text">Fullstack Developer</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
@@ -168,7 +167,6 @@
                                 <p class="team-page__text">Business Development Executive</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
@@ -189,7 +187,6 @@
                                 <p class="team-page__text">Business Development Executive</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
@@ -211,7 +208,6 @@
                                 <p class="team-page__text">Human Resources Manager</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
@@ -233,7 +229,6 @@
                                 <p class="team-page__text">Fullstack Developer</p>
                                 <div class="team-page__social">
                                     <div class="team-page__social-shape-2">
-                                        {{-- <img src="assets/images/shapes/team-page-social-shape-2.png" alt=""> --}}
                                     </div>
                                     <a href="#"><span class="icon-linkedin"></span></a>
                                 </div>
