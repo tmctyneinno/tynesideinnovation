@@ -119,4 +119,10 @@ public function details($slug){
     return view('frontend.blog.blog-details', compact('postItem', 'relatedPost'));
 }
 
+    public function SiteMap()
+    {
+        return asset('sitemap.xml');
+    }
+
 }
+
