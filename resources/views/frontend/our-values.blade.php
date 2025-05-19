@@ -7,40 +7,8 @@
 </style>
 @section('content')
  
-<!--=================================
-    Header Inner --> 
-    <section class="header-inner header-inner-menu bg-overlay-black-30" style="background-image: url('{{asset('assets/images/header-inner/16.jpg')}}');">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-8">
-              <div class="header-inner-title text-center position-relative">
-                <h1 class="text-white fw-normal">Our Values</h1>
-                <p class="text-white mb-0">For those of you who are serious about having more, doing more, giving more and being more, success is achievable with some understanding</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="header-inner-nav">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex justify-content-center">
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link " href="{{ route('home.pages', 'about-us') }}">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('home.pages', 'mission-vision') }}">Mission and vision</a></li>
-                    <li class="nav-item"><a class="nav-link " href="{{ route('home.pages', 'career') }}">Careers</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="{{ route('home.pages', 'our-value') }}">Our values</a></li>
-                  </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--=================================
-      Header Inner -->
-  
-      <!--=================================
-      About -->
-      <section class="space-ptb pb-md-5 bg-dark">
+
+      <section class="space-ptb pb-md-5 mt-5 pt-5 bg-dark">
         <div class="container">
           <div class="row text-center justify-content-center">
             <div class="col-lg-10 text-center text-white">
@@ -55,13 +23,13 @@
   
       <!--=================================
       About -->
-      <section class="bg-dark-half-sm">
+      <section class="bg-dark-half-sm pt-5">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="position-relative">
                 <img class="img-fluid border-radius" src="{{ asset('assets/images/blog/01.jpg')}}" alt="">
-                <a class="icon-btn icon-btn-lg icon-btn-all-center btn-animation popup-youtube" href="https://www.youtube.com/watch?v=LgvseYYhqU0"><i class="fas fa-play fa-1x"></i>
+                <a class="icon-btn icon-btn-lg icon-btn-all-center btn-animation popup-youtube" href=""><i class="fas fa-play fa-1x"></i>
                 </a>
               </div>
             </div>
