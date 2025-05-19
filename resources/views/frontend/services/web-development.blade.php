@@ -153,35 +153,35 @@
                                           <img src="assets/images/icon/services-details-more-services-icon.png"
                                               alt="">
                                       </div>
-                                      <p><a href="{{route('home', 'digital-marketing')}}">Digital Marketing </a></p>
+                                      <p><a href="{{route('home.pages','digital-marketing')}}">Digital Marketing </a></p>
                                   </li>
                                   <li class="active">
                                       <div class="icon">
                                           <img src="assets/images/icon/services-details-more-services-icon.png"
                                               alt="">
                                       </div>
-                                      <p><a href="{{route('home', 'web-development')}}">Web Design & Development</a></p>
+                                      <p><a href="{{route('home.pages','web-development')}}">Web Design & Development</a></p>
                                   </li>
                                   <li>
                                       <div class="icon">
                                           <img src="assets/images/icon/services-details-more-services-icon.png"
                                               alt="">
                                       </div>
-                                      <p><a href="{{route('home', 'search-engine')}}">Search Engine Optimization</a></p>
+                                      <p><a href="{{route('home.pages','search-engine')}}">Search Engine Optimization</a></p>
                                   </li>
                                   <li>
                                       <div class="icon">
                                           <img src="assets/images/icon/services-details-more-services-icon.png"
                                               alt="">
                                       </div>
-                                      <p><a href="{{route('home', 'branding-design')}}">Design & Branding</a></p>
+                                      <p><a href="{{route('home.pages','branding-design')}}">Design & Branding</a></p>
                                   </li>
                                   <li>
                                       <div class="icon">
                                           <img src="assets/images/icon/services-details-more-services-icon.png"
                                               alt="">
                                       </div>
-                                      <p><a href="{{route('home', 'app-development')}}">App Development</a></p>
+                                      <p><a href="{{route('home.pages','app-development')}}">App Development</a></p>
                                   </li>
                               </ul>
                           </div>
