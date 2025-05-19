@@ -297,7 +297,7 @@
                             <img src="{{asset('/assets/images/icon7.png')}}" alt="">
                           </div>
                           <div class="services-three__content">
-                              <h3 class="services-three__title"><a href="services.html">WEBSITE DEVELOPMENT</a></h3>
+                              <h3 class="services-three__title"><a href="{{ route( 'home.pages', 'web-development' )}}">WEBSITE DEVELOPMENT</a></h3>
                               <p class="services-three__text">
                                 Get a unique, fully tailored website that aligns with your brand and business goals. We ensures a flawless experience on all devices, from desktops to smartphones.
                               </p>
@@ -313,7 +313,7 @@
                             <img src="{{asset('/assets/images/icon8.png')}}" alt="">
                           </div>
                           <div class="services-three__content">
-                            <h3 class="services-three__title"><a href="services.html">IMAGING & DIGITAL PRINTING</a></h3>
+                            <h3 class="services-three__title"><a href="{{ route( 'home.pages', 'branding-design' )}}">IMAGING & DIGITAL PRINTING</a></h3>
                             <p class="services-three__text">
                                 We offer professional imaging and digital printing services that bring your ideas to life with precision and clarity. Whether you need business materials, promotional prints, or large-format signage, our advanced printing technology ensures vibrant colors, sharp details, and long-lasting quality.
                             </p>
@@ -329,7 +329,7 @@
                             <img src="{{asset('/assets/images/icon6.png')}}" alt="">
                           </div>
                           <div class="services-three__content">
-                              <h3 class="services-three__title"><a href="services.html">DIGITAL & SOCIAL MEDIA MARKETING</a>
+                              <h3 class="services-three__title"><a href="{{ route( 'home.pages', 'digital-marketing' )}}">DIGITAL & SOCIAL MEDIA MARKETING</a>
                               </h3>
                               <p class="services-three__text">
                                 We help businesses thrive in the digital space with strategic online marketing solutions. From increasing brand awareness to driving sales, our expert team creates data-driven marketing campaigns tailored to your goals.

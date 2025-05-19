@@ -151,47 +151,8 @@
                             </div>
                         </div>
                     </div>
-                    {{-- ------end---- --}}
-                     <!--Team Page Single Start-->
-                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="team-page__single">
-                            <div class="team-page__img-box">
-                                <div class="team-page__img">
-                                    <img src="{{asset('/assets/images/team/taj.png')}}" alt="">
-                                </div>
-                            </div>
-                            <div class="team-page__content">
-                                <h4 class="team-page__title"><a href="#">Bello Tajudeen</a></h4>
-                                <p class="team-page__text">Business Development Executive</p>
-                                <div class="team-page__social">
-                                    <div class="team-page__social-shape-2">
-                                    </div>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- ------end---- --}}
-                     <!--Team Page Single Start-->
-                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="team-page__single">
-                            <div class="team-page__img-box">
-                                <div class="team-page__img">
-                                    <img src="{{asset('/assets/images/team/alex.png')}}" alt="">
-                                </div>
-                            </div>
-                            <div class="team-page__content">
-                                <h4 class="team-page__title"><a href="#">Alex Duru</a></h4>
-                                <p class="team-page__text">Business Development Executive</p>
-                                <div class="team-page__social">
-                                    <div class="team-page__social-shape-2">
-                                    </div>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- ------end---- --}}
+
+                    
 
                     {{-- ------end---- --}}
                     <div class="col-xl-3 col-lg-6 col-md-6">

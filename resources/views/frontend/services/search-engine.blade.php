@@ -44,45 +44,43 @@
                                 including SERP optimization and on-page SEO. Across reviews, 100% of clients highlight their exceptional project management, responsiveness,
                                  and measurable success in improving website ranking and organic search optimization, with many noting dramatic increases in first-page rankings and consistent growth in website traffic</p>
                               <div class="services-details__points-box">
-                                  <ul class="services-details__points-list list-unstyled">
-                                      <li>
-                                          <div class="icon">
-                                              <span class="icon-check"></span>
-                                          </div>
-                                          <p>Keyword research and optimization</p>
-                                      </li>
-                                      <p>We can help you with routine audits to determine an SEO strategy that will drive visitors to your website. We will assist with identifying your key audience and mapping keywords that help you achieve your goals.</p>
-                                      <li>
-                                          <div class="icon">
-                                              <span class="icon-check"></span>
-                                          </div>
-                                          <p>E-commerce SEO</p>
-                                      </li>
-                                      <p>Word of mouth is no longer enough when it comes to raising brand awareness and increasing sales. A competitive e-commerce SEO strategy will ensure your site is visible to maximize your profits.</p>
-                                      <li>
-                                          <div class="icon">
-                                              <span class="icon-check"></span>
-                                          </div>
-                                          <p>Local SEO</p>
-                                      </li>
-                                      <p>Local SEO is critical when it comes to drawing in customers from across the area. Our team provides strong SEO services to make sure your company is visible in local search results.</p>
-                                      <li>
-                                        <div class="icon">
-                                            <span class="icon-check"></span>
-                                        </div>
-                                        <p>Technical SEO</p>
-                                    </li>
-                                    <p>Our team will help you improve your organic rankings by improving your technical SEO strategy. We will assist in improving all the technical aspects of your website to increase your rankings in all the major search engines.</p>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-check"></span>
-                                        </div>
-                                        <p>Video search optimization</p>
-                                    </li>
-                                    <p> Every day, we see more than 15,000 marketing messages — and most of us have become experts at tuning them out. To attract new customers, it’s important for you to create content that stands out. Our team is committed to implementing a successful video search optimization strategy that does just that</p>
-                               
-                                    </ul>
-                        
+                                   <ul class="services-details__more-services-list list-unstyled">
+                                  <li>
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home', 'digital-marketing')}}">Digital Marketing </a></p>
+                                  </li>
+                                  <li class="active">
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home', 'web-development')}}">Web Design & Development</a></p>
+                                  </li>
+                                  <li>
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home', 'search-engine')}}">Search Engine Optimization</a></p>
+                                  </li>
+                                  <li>
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home', 'branding-design')}}">Design & Branding</a></p>
+                                  </li>
+                                  <li>
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home', 'app-development')}}">App Development</a></p>
+                                  </li>
+                              </ul>
                               </div>
                                 </div>
                       </div>

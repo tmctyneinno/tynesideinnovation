@@ -1,9 +1,9 @@
 <body class="custom-cursor">
-  <div class="loader js-preloader">
+  {{-- <div class="loader js-preloader">
 
-                              <a href="{{route('index')}}"><img src="{{asset('/assets/images/Tyneside.png')}}"  width="130px" alt=""></a>
+    <a href="{{route('index')}}"><img src="{{asset('/assets/images/Tyneside.png')}}"  width="130px" alt=""></a>
       
-  </div>
+  </div> --}}
   <div class="page-wrapper">
       <header class="main-header-two">
           <div class="main-menu-two__top">
