@@ -19,7 +19,7 @@
                                             <span class="icon-pin"></span>
                                         </div> --}}
                                         <div class="text">
-                                            <p>EUROPE: 85 Great Portland Street, First Floor, London W1W 7LT, United Kingdom</p>
+                                            <p>EUROPE: 50 Princes Street, Ipswich, Suffolk, IP1 1RJ, United Kingdom</p>
                                            <p> AFRICA: 1 Adeola Adeoye Street, Off Toyin Street, Ikeja, Lagos Nigeria 2341</p>
                                             <p>ASIA:      21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</p>
                                         </div>
