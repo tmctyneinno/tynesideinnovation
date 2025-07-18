@@ -154,6 +154,13 @@
                                       </div>
                                       <p><a href="{{route('home.pages','app-development')}}">App Development</a></p>
                                   </li>
+                                       <li>
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home.pages','financial-technology-distribution')}}">Financial Technology Distribution</a></p>
+                                  </li>
                               </ul>
                           </div>
                  

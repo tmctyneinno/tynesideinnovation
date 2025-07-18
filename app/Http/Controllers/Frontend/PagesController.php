@@ -50,7 +50,8 @@ class PagesController extends Controller
             'app-development',
             'search-engine',
             'it-solutions',
-            'imaging-and-digital-printing'
+            'imaging-and-digital-printing',
+            'financial-technology-distribution'
         ];
         
         if (array_key_exists($slug, $pages)) {

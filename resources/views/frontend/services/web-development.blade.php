@@ -183,6 +183,13 @@
                                       </div>
                                       <p><a href="{{route('home.pages','app-development')}}">App Development</a></p>
                                   </li>
+                                       <li>
+                                      <div class="icon">
+                                          <img src="assets/images/icon/services-details-more-services-icon.png"
+                                              alt="">
+                                      </div>
+                                      <p><a href="{{route('home.pages','financial-technology-distribution')}}">Financial Technology Distribution</a></p>
+                                  </li>
                               </ul>
                           </div>
                           <div class="services-details__contact-box">
@@ -203,24 +210,5 @@
 
 
 
-      <!--CTA One Start -->
-      <section class="cta-one cta-two">
-          <div class="container">
-              <div class="cta-one__inner">
-                  <div class="cta-one__img">
-                      <img src="assets/images/resources/cta-one-img-1.png" alt="">
-                  </div>
-                  <div class="cta-one__inner-content">
-                      <div class="cta-one__shape-bg"
-                          style="background-image: url(assets/images/shapes/cta-one-shape-bg.png);"></div>
-                      <h3 class="cta-one__title">Start your journey with our <br> exceptional services.</h3>
-                      <div class="cta-one__btn">
-                        <a href="{{ route('home.pages','contact')}}">Contact Us <span class=" icon-right-arrow-1"></span></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!--CTA One End -->
 
 @endsection
